@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ch 7: CRR Tech Tools — DFD CRR Officer Operations Manual</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <a href="index.html" class="header-brand">
+      <span class="header-badge">DFD</span>
+      <span class="header-title">CRR Officer Operations Manual</span>
+    </a>
+    <span class="header-subtitle">v0.2 — March 2026</span>
+  </header>
+
+  <nav class="sidebar">
+    <a href="index.html" class="nav-link">Home</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
+    <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
+    <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
+    <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
+    <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
+    <a href="ch07.html" class="nav-link active">Ch 7: CRR Tech Tools</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
+    <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
+    <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
+    <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
+    <a href="ch13.html" class="nav-link">Ch 13: Weekly Reporting</a>
+    <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
+    <a href="ch17.html" class="nav-link">Ch 17: System Admin</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">APPENDICES</div></div>
+    <a href="app-a.html" class="nav-link">App A: Quick Reference</a>
+    <a href="app-b.html" class="nav-link">App B: CRR Tools Docs</a>
+    <a href="app-c.html" class="nav-link">App C: Newsletter Archive</a>
+    <a href="app-d.html" class="nav-link">App D: Contact Directory</a>
+    <a href="app-e.html" class="nav-link">App E: Version History</a>
+    <a href="app-f.html" class="nav-link">App F: Email Templates</a>
+    <a href="app-g.html" class="nav-link">App G: Vendor Reference</a>
+    <a href="app-h.html" class="nav-link">App H: CRR Calendar</a>
+    <a href="app-i.html" class="nav-link">App I: Recruiting Calendar</a>
+  </nav>
+  <div class="sidebar-overlay"></div>
+
+  <main class="main-content">
+    <div class="content-wrapper">
+      <span class="chapter-number">Chapter 7</span>
+<h1>CRR Technology Tools</h1>
+<h2 id="7-1-tools-portfolio-overview">7.1 Tools Portfolio Overview</h2>
+<p>The CRR Officer developed and maintains a suite of four web-based operational tools, all accessible via the DFD HUB (SharePoint). These tools support field operations, fire prevention, and community service delivery. All tools are hosted on GitHub Pages at no ongoing cost.</p>
+<div class="table-wrapper"><table>
+<thead><tr>
+<th>Tool</th>
+<th>Purpose</th>
+<th>URL</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Water Shutoff Survey</td>
+<td>Log sprinkler/water meter shutoffs with GPS, damage reporting, automated emails</td>
+<td>dentonfire.github.io/Water-Shutoff/</td>
+</tr>
+<tr>
+<td>Fire Watch Guidelines</td>
+<td>Interactive guide with 3 digital PDF forms for fire system impairments</td>
+<td>dentonfire.github.io/Fire-Watch/</td>
+</tr>
+<tr>
+<td>Knox Box Guide</td>
+<td>IFC Section 506 compliance, purchasing, installation, gate access</td>
+<td>dentonfire.github.io/Knox-Box/</td>
+</tr>
+<tr>
+<td>After the Fire</td>
+<td>Recovery guide for fire victims: housing, utilities, documents, financial, mental health</td>
+<td>dentonfire.github.io/After-the-Fire/</td>
+</tr>
+</tbody></table></div>
+<p><strong>HUB Access:</strong> codenton.sharepoint.com/sites/DentonFire/SitePages/CRR\_Resources.aspx</p>
+<h2 id="7-2-water-shutoff-survey-detailed-reference">7.2 Water Shutoff Survey — Detailed Reference</h2>
+<p>The Water Shutoff Tracking System is the most complex CRR tool and requires the most ongoing maintenance attention. It consists of three components:</p>
+<h3 id="architecture">Architecture</h3>
+<ul>
+<li>Frontend: HTML, JavaScript, Tailwind CSS</li>
+</ul>
+<ul>
+<li>Backend: Firebase (Authentication \+ Firestore Database)</li>
+</ul>
+<ul>
+<li>Hosting: GitHub Pages (static hosting, free)</li>
+</ul>
+<ul>
+<li>Maps: Leaflet.js with OpenStreetMap tiles</li>
+</ul>
+<ul>
+<li>Charts: Chart.js</li>
+</ul>
+<p><strong>Firebase Project:</strong> denton-fire-tools</p>
+<p><strong>Firebase Console:</strong> console.firebase.google.com</p>
+<p><strong>GitHub Repository:</strong> github.com/dentonfire/Water-Shutoff</p>
+<h3 id="components">Components</h3>
+<div class="table-wrapper"><table>
+<thead><tr>
+<th>Component</th>
+<th>URL</th>
+<th>Purpose</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Command Center</td>
+<td>dentonfire.github.io/Water-Shutoff/</td>
+<td>Admin dashboard: real-time map, analytics, CSV export, follow-up tracking</td>
+</tr>
+<tr>
+<td>Field Survey Form</td>
+<td>dentonfire.github.io/Water-Shutoff/water\_shutoff.html</td>
+<td>Mobile form for field crews: unit selection, address, GPS, system type, damage</td>
+</tr>
+<tr>
+<td>Fire Watch Guide</td>
+<td>dentonfire.github.io/Fire-Watch/</td>
+<td>Interactive guide with 3 fillable PDF forms for fire system impairments</td>
+</tr>
+</tbody></table></div>
+<h3 id="email-routing">Email Routing</h3>
+<p>When a report is submitted, an email is automatically generated and routed to the appropriate department:</p>
+<ul>
+<li>Water Meter shutoffs → watermetering@cityofdenton.com (Water Distribution Department)</li>
+</ul>
+<ul>
+<li>Sprinkler System shutoffs → FirePrevention@cityofdenton.com (Fire Prevention Division)</li>
+</ul>
+<ul>
+<li>CC on all reports → hunter.lott@cityofdenton.com (CRR Officer)</li>
+</ul>
+<h3 id="security-access">Security &amp; Access</h3>
+<ul>
+<li>Only @cityofdenton.com email addresses can create accounts</li>
+</ul>
+<ul>
+<li>Email verification required before write access</li>
+</ul>
+<ul>
+<li>Firebase security rules enforce authentication</li>
+</ul>
+<ul>
+<li>Session expires after 30 days of inactivity</li>
+</ul>
+<ul>
+<li>All data transmitted over HTTPS</li>
+</ul>
+<p><strong>Purge Password:</strong> ADMIN (used to clear all records from Command Center)</p>
+<p>WARNING: The purge function permanently deletes ALL records. Use with extreme caution and only when necessary.</p>
+<h3 id="key-code-locations">Key Code Locations</h3>
+<div class="table-wrapper"><table>
+<thead><tr>
+<th>Setting</th>
+<th>File / Line</th>
+<th>Current Value</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Purge Password</td>
+<td>index.html \~425</td>
+<td>ADMIN</td>
+</tr>
+<tr>
+<td>Session Timeout</td>
+<td>Both files</td>
+<td>30 days</td>
+</tr>
+<tr>
+<td>CC Email</td>
+<td>Both files</td>
+<td>hunter.lott@cityofdenton.com</td>
+</tr>
+<tr>
+<td>Water Meter Email</td>
+<td>Both files</td>
+<td>watermetering@cityofdenton.com</td>
+</tr>
+<tr>
+<td>Sprinkler Email</td>
+<td>Both files</td>
+<td>FirePrevention@cityofdenton.com</td>
+</tr>
+</tbody></table></div>
+<h3 id="updating-the-code">Updating the Code</h3>
+<p>Code changes can be made directly through the GitHub web interface (easiest) or via Git command line:</p>
+<ol>
+<li>Go to github.com/dentonfire/Water-Shutoff</li>
+</ol>
+<ol>
+<li>Click on the file to edit</li>
+</ol>
+<ol>
+<li>Click the pencil icon (Edit this file)</li>
+</ol>
+<ol>
+<li>Make changes</li>
+</ol>
+<ol>
+<li>Click &quot;Commit changes&quot;</li>
+</ol>
+<ol>
+<li>Changes go live within 1-2 minutes via GitHub Pages auto-deployment</li>
+</ol>
+<p>[ACTION REQUIRED] New CRR Officer needs: (1) GitHub access to the dentonfire organization, (2) Firebase console access to the denton-fire-tools project, (3) Update the CC email address in both HTML files to the new Officer’s email.</p>
+<h3 id="offline-capability">Offline Capability</h3>
+<p>The Water Shutoff Survey works offline. When field crews have no cell signal, the form can still be filled out and submitted. Data saves locally to the device and automatically syncs when connectivity is restored. A yellow banner appears when offline to indicate status.</p>
+<h2 id="7-3-fire-watch-guidelines">7.3 Fire Watch Guidelines</h2>
+<p>The Fire Watch Guidelines tool provides interactive guidance for managing fire protection system impairments per International Fire Code (IFC) requirements. It includes three digital fillable PDF forms:</p>
+<ul>
+<li>Building Representative Notification Form</li>
+</ul>
+<ul>
+<li>Designee Notification Form</li>
+</ul>
+<ul>
+<li>Fire Watch Log</li>
+</ul>
+<p>These forms are used by Fire Prevention staff when fire suppression systems are shut off in occupied buildings. The system tracks which properties have active fire watches and enables follow-up on extended impairments.</p>
+<h2 id="7-4-knox-box-guide">7.4 Knox Box Guide</h2>
+<p>The Knox Box Guide provides comprehensive property access guidance covering IFC Section 506 requirements, purchasing procedures, installation specifications, and gate access protocols. This tool serves both property owners/managers and fire department personnel with standardized procedures for Knox Box implementation.</p>
+<h2 id="7-5-after-the-fire">7.5 After the Fire</h2>
+<p>The After the Fire guide is a comprehensive recovery resource for fire victims. It covers immediate safety, housing assistance, utility restoration, document replacement, financial recovery resources, and mental health support. The guide features a mobile-friendly interface with QR code access and bookmark-to-phone instructions.</p>
+<p>Content was developed in coordination with City of Denton Building Safety. The Building Safety section covers the reconstruction process including building permits, courtesy fire/disaster inspections, contractor registration, and inspection requirements. Key contact: Building Safety at 940-349-8600.</p>
+<p>Physical handouts were also ordered for non-phone access, enabling distribution at fire scenes by Operations crews.</p>
+<h2 id="7-6-tool-maintenance-schedule">7.6 Tool Maintenance Schedule</h2>
+<div class="table-wrapper"><table>
+<thead><tr>
+<th>Frequency</th>
+<th>Task</th>
+<th>Tool(s)</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Monthly</td>
+<td>Check all tool URLs are accessible and functioning</td>
+<td>All</td>
+</tr>
+<tr>
+<td>Monthly</td>
+<td>Review Water Shutoff submissions for data quality</td>
+<td>Water Shutoff Survey</td>
+</tr>
+<tr>
+<td>Quarterly</td>
+<td>Export usage analytics for quarterly report</td>
+<td>All</td>
+</tr>
+<tr>
+<td>Quarterly</td>
+<td>Verify all links and resources in After the Fire are current</td>
+<td>After the Fire</td>
+</tr>
+<tr>
+<td>Annually</td>
+<td>Review and update IFC code references</td>
+<td>Fire Watch, Knox Box</td>
+</tr>
+<tr>
+<td>As needed</td>
+<td>Add/remove unit options in survey dropdown</td>
+<td>Water Shutoff Survey</td>
+</tr>
+<tr>
+<td>As needed</td>
+<td>Update email recipients if staff changes</td>
+<td>Water Shutoff Survey</td>
+</tr>
+</tbody></table></div>
+      <div class="page-nav"><a href="ch06.html"><span class="nav-label">← Previous</span>Ch 6: Newsletters</a><a href="ch08.html" class="nav-next"><span class="nav-label">Next →</span>Ch 8: Civil Service</a></div>
+    </div>
+    <footer class="site-footer">
+      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Prepared by Captain Hunter Lott, Community Risk Reduction Officer
+    </footer>
+  </main>
+
+  <script src="assets/nav.js"></script>
+</body>
+</html>

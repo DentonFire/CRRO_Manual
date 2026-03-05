@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ch 17: System Admin — DFD CRR Officer Operations Manual</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <a href="index.html" class="header-brand">
+      <span class="header-badge">DFD</span>
+      <span class="header-title">CRR Officer Operations Manual</span>
+    </a>
+    <span class="header-subtitle">v0.2 — March 2026</span>
+  </header>
+
+  <nav class="sidebar">
+    <a href="index.html" class="nav-link">Home</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
+    <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
+    <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
+    <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
+    <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
+    <a href="ch07.html" class="nav-link">Ch 7: CRR Tech Tools</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
+    <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
+    <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
+    <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
+    <a href="ch13.html" class="nav-link">Ch 13: Weekly Reporting</a>
+    <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
+    <a href="ch17.html" class="nav-link active">Ch 17: System Admin</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">APPENDICES</div></div>
+    <a href="app-a.html" class="nav-link">App A: Quick Reference</a>
+    <a href="app-b.html" class="nav-link">App B: CRR Tools Docs</a>
+    <a href="app-c.html" class="nav-link">App C: Newsletter Archive</a>
+    <a href="app-d.html" class="nav-link">App D: Contact Directory</a>
+    <a href="app-e.html" class="nav-link">App E: Version History</a>
+    <a href="app-f.html" class="nav-link">App F: Email Templates</a>
+    <a href="app-g.html" class="nav-link">App G: Vendor Reference</a>
+    <a href="app-h.html" class="nav-link">App H: CRR Calendar</a>
+    <a href="app-i.html" class="nav-link">App I: Recruiting Calendar</a>
+  </nav>
+  <div class="sidebar-overlay"></div>
+
+  <main class="main-content">
+    <div class="content-wrapper">
+      <span class="chapter-number">Chapter 17</span>
+<h1>System Administration &amp; Succession Planning</h1>
+<p>This chapter addresses the practical considerations for maintaining CRR technology systems and ensuring continuity of operations during personnel transitions. Because many of these systems were built and are solely administered by the CRR Officer, documenting access, procedures, and institutional knowledge is critical.</p>
+<h2 id="17-1-access-credential-management">17.1 Access Credential Management</h2>
+<p>The following credentials must be transferred during any personnel transition. All accounts should be updated with the successor’s contact information within the first week of onboarding.</p>
+<div class="table-wrapper"><table>
+<thead><tr>
+<th>System</th>
+<th>Account Type</th>
+<th>Transfer Method</th>
+<th>Priority</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>GitHub (dentonfire)</td>
+<td>Org admin</td>
+<td>Add successor as org member, transfer ownership</td>
+<td>Critical</td>
+</tr>
+<tr>
+<td>Firebase</td>
+<td>Project admin</td>
+<td>Add successor Google account to project</td>
+<td>Critical</td>
+</tr>
+<tr>
+<td>Constant Contact</td>
+<td>Account login</td>
+<td>Update email/password</td>
+<td>High</td>
+</tr>
+<tr>
+<td>NEOGOV</td>
+<td>City account</td>
+<td>Request access through HR/IT</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Power Automate</td>
+<td>M365 account</td>
+<td>Flows transfer with account or reshare</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Handshake</td>
+<td>Employer account</td>
+<td>Update organization contact</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Subtext</td>
+<td>Account login</td>
+<td>Update email/password</td>
+<td>Medium</td>
+</tr>
+</tbody></table></div>
+<h2 id="17-2-crr-web-tools-technical-maintenance">17.2 CRR Web Tools — Technical Maintenance</h2>
+<p>The CRR web tools require minimal ongoing maintenance due to their static hosting architecture. However, the following tasks should be performed on a regular basis:</p>
+<h3 id="monthly-maintenance">Monthly Maintenance</h3>
+<ul>
+<li>Verify all four tool URLs load correctly and function as expected</li>
+</ul>
+<ul>
+<li>Review Firebase Authentication for any unauthorized account registrations</li>
+</ul>
+<ul>
+<li>Check Water Shutoff Command Center for data integrity</li>
+</ul>
+<ul>
+<li>Test email routing (submit a test report and verify email generation)</li>
+</ul>
+<h3 id="quarterly-maintenance">Quarterly Maintenance</h3>
+<ul>
+<li>Export Water Shutoff data via CSV for quarterly reporting</li>
+</ul>
+<ul>
+<li>Review and update unit dropdown options if apparatus assignments change</li>
+</ul>
+<ul>
+<li>Check GitHub Pages deployment settings remain configured correctly</li>
+</ul>
+<ul>
+<li>Review Firebase usage metrics to ensure within free-tier limits</li>
+</ul>
+<h3 id="annual-maintenance">Annual Maintenance</h3>
+<ul>
+<li>Review all tool content for accuracy (contact emails, procedures, links)</li>
+</ul>
+<ul>
+<li>Verify Building Safety contact information in After the Fire guide (940-349-8600)</li>
+</ul>
+<ul>
+<li>Update Fire Watch PDF forms if IFC requirements change</li>
+</ul>
+<ul>
+<li>Review Knox Box guide for any IFC Section 506 updates</li>
+</ul>
+<ul>
+<li>Confirm @cityofdenton.com email domain restriction is still appropriate</li>
+</ul>
+<h3 id="common-troubleshooting">Common Troubleshooting</h3>
+<p>Users can’t log in: Verify email ends with @cityofdenton.com; check if email is verified in Firebase console; suggest “Forgot Password” reset. City email scanners may auto-click verification links causing “expired” messages — user can typically log in anyway.</p>
+<p>Map not loading: Check internet connection; clear browser cache; try different browser. Leaflet.js with OpenStreetMap tiles is the mapping stack.</p>
+<p>Changes not appearing after commit: Wait 1–2 minutes for GitHub Pages rebuild; hard-refresh browser; check GitHub Actions tab for build errors.</p>
+<p>Data not syncing: Check Firebase console for error messages; verify Firestore security rules are published; check browser console (F12) for JavaScript errors.</p>
+<h2 id="17-3-power-automate-maintenance">17.3 Power Automate Maintenance</h2>
+<p>The automated reporting system requires periodic monitoring to ensure reliability:</p>
+<ul>
+<li>Check flow run history weekly for any failed runs (make.powerautomate.com → My Flows → Run History)</li>
+</ul>
+<ul>
+<li>Verify weekly report generation each Monday morning</li>
+</ul>
+<ul>
+<li>Update SharePoint list column choices if budget accounts or event categories change</li>
+</ul>
+<ul>
+<li>Renew any connections that expire (Outlook, SharePoint connectors may require re-authentication)</li>
+</ul>
+<ul>
+<li>Test the quarterly compilation flow before each quarter-end deadline</li>
+</ul>
+<p>Common issues include SharePoint column name mismatches (internal names use \_x0020\_ for spaces), expired OAuth connections, and date formatting errors. Refer to the Power Automate Setup Guide for detailed troubleshooting procedures.</p>
+<h2 id="17-4-succession-planning">17.4 Succession Planning</h2>
+<p>The CRR Officer position is the sole administrator for many critical systems. The following succession documentation ensures continuity:</p>
+<h3 id="critical-documentation-package">Critical Documentation Package</h3>
+<p>A successor should receive the following materials within the first week:</p>
+<ol>
+<li>This Operations Manual (comprehensive reference for all programs)</li>
+</ol>
+<ol>
+<li>Water Shutoff Technical Administrator Guide (detailed system documentation)</li>
+</ol>
+<ol>
+<li>Water Shutoff Field Guide for Firefighters (end-user reference)</li>
+</ol>
+<ol>
+<li>Water Shutoff Leadership Overview (executive summary for chiefs)</li>
+</ol>
+<ol>
+<li>Power Automate Setup Guide (complete workflow documentation)</li>
+</ol>
+<ol>
+<li>Access credentials for all systems listed in Section 17.1</li>
+</ol>
+<ol>
+<li>Current quarterly program appraisal (most recent operational snapshot)</li>
+</ol>
+<ol>
+<li>Active candidate list and hiring pipeline status from NEOGOV</li>
+</ol>
+<h3 id="knowledge-transfer-timeline">Knowledge Transfer Timeline</h3>
+<p>Recommended 2–4 week overlap period for outgoing and incoming CRR Officer:</p>
+<div class="table-wrapper"><table>
+<thead><tr>
+<th>Week</th>
+<th>Focus Area</th>
+<th>Key Activities</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Week 1</td>
+<td>Systems &amp; Access</td>
+<td>Transfer all credentials, tour platforms, review this manual</td>
+</tr>
+<tr>
+<td>Week 2</td>
+<td>Recruiting Pipeline</td>
+<td>NEOGOV walkthrough, active candidates, vendor contacts (FPSI, VerifEYE, Concentra, Pepper)</td>
+</tr>
+<tr>
+<td>Week 3</td>
+<td>CRR Programs</td>
+<td>Newsletter production, event coordination, tool maintenance, community contacts</td>
+</tr>
+<tr>
+<td>Week 4</td>
+<td>Reporting &amp; Admin</td>
+<td>Weekly report generation, budget reconciliation, accreditation files, Chief Hedges briefing</td>
+</tr>
+</tbody></table></div>
+<h3 id="programs-requiring-succession-planning">Programs Requiring Succession Planning</h3>
+<p>Several programs identified in Q1 FY 25-26 require succession planning beyond the CRR Officer position:</p>
+<ul>
+<li>Clown Program — Currently inactive; requires identifying and training performers if program resumes</li>
+</ul>
+<ul>
+<li>Explorer/Scout Program — BSA renewed in Q1; requires instructor with current BSA registration and safety training</li>
+</ul>
+<ul>
+<li>DFR/UAS Program — Shared responsibility; requires FAA Part 107 certification and DroneSense access</li>
+</ul>
+<ul>
+<li>Citizens Fire Academy — Coordination role; requires knowledge of curriculum, guest speakers, and logistics</li>
+</ul>
+<h2 id="17-5-vendor-contact-directory">17.5 Vendor Contact Directory</h2>
+<p>The following vendors support CRR and Recruitment operations:</p>
+<div class="table-wrapper"><table>
+<thead><tr>
+<th>Vendor</th>
+<th>Service</th>
+<th>Used For</th>
+<th>Contract Notes</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>FPSI</td>
+<td>Fire &amp; Police Selection, Inc.</td>
+<td>Civil Service Exam</td>
+<td>Annual contract cycle</td>
+</tr>
+<tr>
+<td>VerifEYE</td>
+<td>Remote polygraph</td>
+<td>Candidate polygraphs</td>
+<td>Per-test billing</td>
+</tr>
+<tr>
+<td>Concentra</td>
+<td>Occupational health</td>
+<td>Medical exams (\~$825)</td>
+<td>Per-candidate</td>
+</tr>
+<tr>
+<td>Pepper &amp; Associates</td>
+<td>Psychological testing</td>
+<td>Psych evals (\~$215)</td>
+<td>Per-candidate</td>
+</tr>
+<tr>
+<td>Constant Contact</td>
+<td>Email marketing</td>
+<td>Newsletter distribution</td>
+<td>Subscription service</td>
+</tr>
+<tr>
+<td>University Gateway Ctr</td>
+<td>Venue rental</td>
+<td>Civil Service Exam site</td>
+<td>Per-event booking</td>
+</tr>
+</tbody></table></div>
+<h2 id="17-6-security-considerations">17.6 Security Considerations</h2>
+<p>All CRR web tools enforce authentication via Firebase with @cityofdenton.com email restrictions. Data is encrypted in transit (HTTPS) and at rest (Google Cloud). No sensitive personal information (SSN, medical records) is stored in any CRR-managed system. Candidate personal information is managed within NEOGOV’s secure environment and City HR systems.</p>
+<p>Key security practices to maintain:</p>
+<ul>
+<li>Never store sensitive candidate data outside of NEOGOV or official City systems</li>
+</ul>
+<ul>
+<li>Verify Firebase security rules remain published and enforced after any code changes</li>
+</ul>
+<ul>
+<li>Regularly review registered Firebase users for unauthorized accounts</li>
+</ul>
+<ul>
+<li>Ensure GitHub repository remains under the dentonfire organization (not personal accounts)</li>
+</ul>
+<ul>
+<li>Update the Water Shutoff purge password periodically and limit knowledge of current password</li>
+</ul>
+<ul>
+<li>Follow City of Denton IT security policies for all data handling and system access</li>
+</ul>
+<p><strong>APPENDICES</strong></p>
+<p>Reference Materials &amp; Quick Guides</p>
+<p><em>Templates, checklists, contact directories, and supplementary documentation</em></p>
+      <div class="page-nav"><a href="ch16.html"><span class="nav-label">← Previous</span>Ch 16: Digital Platforms</a><a href="app-a.html" class="nav-next"><span class="nav-label">Next →</span>App A: Quick Reference</a></div>
+    </div>
+    <footer class="site-footer">
+      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Prepared by Captain Hunter Lott, Community Risk Reduction Officer
+    </footer>
+  </main>
+
+  <script src="assets/nav.js"></script>
+</body>
+</html>

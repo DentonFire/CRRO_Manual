@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App B: CRR Tools Docs — DFD CRR Officer Operations Manual</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <a href="index.html" class="header-brand">
+      <span class="header-badge">DFD</span>
+      <span class="header-title">CRR Officer Operations Manual</span>
+    </a>
+    <span class="header-subtitle">v0.2 — March 2026</span>
+  </header>
+
+  <nav class="sidebar">
+    <a href="index.html" class="nav-link">Home</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
+    <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
+    <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
+    <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
+    <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
+    <a href="ch07.html" class="nav-link">Ch 7: CRR Tech Tools</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
+    <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
+    <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
+    <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
+    <a href="ch13.html" class="nav-link">Ch 13: Weekly Reporting</a>
+    <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
+    <a href="ch17.html" class="nav-link">Ch 17: System Admin</a>
+    <div class="nav-divider"></div>
+    <div class="nav-section"><div class="nav-section-label">APPENDICES</div></div>
+    <a href="app-a.html" class="nav-link">App A: Quick Reference</a>
+    <a href="app-b.html" class="nav-link active">App B: CRR Tools Docs</a>
+    <a href="app-c.html" class="nav-link">App C: Newsletter Archive</a>
+    <a href="app-d.html" class="nav-link">App D: Contact Directory</a>
+    <a href="app-e.html" class="nav-link">App E: Version History</a>
+    <a href="app-f.html" class="nav-link">App F: Email Templates</a>
+    <a href="app-g.html" class="nav-link">App G: Vendor Reference</a>
+    <a href="app-h.html" class="nav-link">App H: CRR Calendar</a>
+    <a href="app-i.html" class="nav-link">App I: Recruiting Calendar</a>
+  </nav>
+  <div class="sidebar-overlay"></div>
+
+  <main class="main-content">
+    <div class="content-wrapper">
+      <span class="chapter-number">Appendix B</span>
+<h1>CRR Tools Documentation</h1>
+<h2 id="b-1-tool-access-urls">B.1 Tool Access URLs</h2>
+<div class="table-wrapper"><table>
+<thead><tr>
+<th>Tool</th>
+<th>Public URL</th>
+<th>Purpose</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Water Shutoff Command Center</td>
+<td>dentonfire.github.io/Water-Shutoff/</td>
+<td>Admin dashboard &amp; map</td>
+</tr>
+<tr>
+<td>Water Shutoff Survey</td>
+<td>dentonfire.github.io/Water-Shutoff/water\_shutoff.html</td>
+<td>Field data collection form</td>
+</tr>
+<tr>
+<td>Fire Watch Guidelines</td>
+<td>dentonfire.github.io/Fire-Watch/</td>
+<td>Fire protection impairment guide</td>
+</tr>
+<tr>
+<td>Knox Box Guide</td>
+<td>dentonfire.github.io/Knox-Box/</td>
+<td>Property access procedures</td>
+</tr>
+<tr>
+<td>After the Fire</td>
+<td>dentonfire.github.io/After-the-Fire/</td>
+<td>Fire victim recovery resources</td>
+</tr>
+</tbody></table></div>
+<h2 id="b-2-water-shutoff-system-architecture">B.2 Water Shutoff System Architecture</h2>
+<p>Technology Stack: HTML/JavaScript/Tailwind CSS frontend; Firebase Authentication \+ Cloud Firestore backend; GitHub Pages static hosting; Leaflet.js with OpenStreetMap for mapping; Chart.js for analytics dashboard.</p>
+<p>Data Flow: User logs in with @cityofdenton.com email → Firebase verifies credentials → User submits shutoff report via survey form → Data saved to Firestore → Email client opens with pre-filled report → Command Center displays real-time updates.</p>
+<p>Email Routing: Water meter shutoffs route to watermetering@cityofdenton.com; Sprinkler system shutoffs route to FirePrevention@cityofdenton.com. CC on all reports goes to the CRR Officer.</p>
+<p>Offline Capability: The survey form works without cell service. Data saves locally on the device and automatically syncs when connectivity is restored. A yellow banner indicates offline mode.</p>
+<h2 id="b-3-fire-watch-system">B.3 Fire Watch System</h2>
+<p>The Fire Watch Guidelines tool provides three interactive digital fillable PDF forms for managing fire protection system impairments per International Fire Code (IFC) requirements:</p>
+<ul>
+<li>Building Representative Notification Form — Notifies building management of impairment</li>
+</ul>
+<ul>
+<li>Designee Notification Form — Documents the fire watch designee assignment</li>
+</ul>
+<ul>
+<li>Fire Watch Log — Ongoing documentation of fire watch patrols and observations</li>
+</ul>
+<p>The system integrates with the Water Shutoff Survey through the “Fire Watch Issued” checkbox, allowing Command Center tracking of properties with active fire watches.</p>
+<h2 id="b-4-supporting-documents">B.4 Supporting Documents</h2>
+<p>The following companion documents provide additional technical detail:</p>
+<ul>
+<li>Water Shutoff Technical Administrator Guide — Complete system administration reference with code structure, Firebase configuration, and troubleshooting</li>
+</ul>
+<ul>
+<li>Water Shutoff Field Guide for Firefighters — Quick-start reference for field personnel</li>
+</ul>
+<ul>
+<li>Water Shutoff Leadership Overview — Executive summary for department leadership</li>
+</ul>
+<ul>
+<li>After the Fire — Building Safety Section content (developed in coordination with City Building Safety, contact 940-349-8600)</li>
+</ul>
+      <div class="page-nav"><a href="app-a.html"><span class="nav-label">← Previous</span>App A: Quick Reference</a><a href="app-c.html" class="nav-next"><span class="nav-label">Next →</span>App C: Newsletter Archive</a></div>
+    </div>
+    <footer class="site-footer">
+      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Prepared by Captain Hunter Lott, Community Risk Reduction Officer
+    </footer>
+  </main>
+
+  <script src="assets/nav.js"></script>
+</body>
+</html>
