@@ -3,47 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ch 13: Weekly Reporting — DFD CRR Officer Operations Manual</title>
+  <title>Ch 13: Weekly Reporting | DFD CRR Officer Operations Manual</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
   <header class="site-header">
-    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
     <a href="index.html" class="header-brand">
       <span class="header-badge">DFD</span>
       <span class="header-title">CRR Officer Operations Manual</span>
     </a>
-    <span class="header-subtitle">v0.2 — March 2026</span>
+    <span class="header-subtitle">v0.3 | October 2026</span>
+    <div class="hs" role="search">
+      <button class="hs-open" type="button" aria-label="Search the manual">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="hs-field">
+        <svg class="hs-icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input class="hs-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search the manual"
+               role="combobox" aria-expanded="false" aria-controls="hs-list" aria-autocomplete="list" aria-label="Search the manual">
+        <kbd class="hs-key">/</kbd>
+      </div>
+      <div class="hs-panel" id="hs-panel" hidden>
+        <ul class="hs-list" id="hs-list" role="listbox"></ul>
+        <div class="hs-foot"></div>
+      </div>
+    </div>
   </header>
 
   <nav class="sidebar">
     <a href="index.html" class="nav-link">Home</a>
+    <a href="search.html" class="nav-link">Search</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART I: FOUNDATION</div></div>
     <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
     <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
     <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART II: CRR OPERATIONS</div></div>
     <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
     <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
     <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
     <a href="ch07.html" class="nav-link">Ch 7: CRR Tech Tools</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART III: RECRUITMENT &amp; HIRING</div></div>
     <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
     <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
     <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
     <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV: ADMINISTRATION</div></div>
     <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
     <a href="ch13.html" class="nav-link active">Ch 13: Weekly Reporting</a>
     <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
-    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation &amp; Pension</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART V: TECHNOLOGY</div></div>
     <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
     <a href="ch17.html" class="nav-link">Ch 17: System Admin</a>
     <div class="nav-divider"></div>
@@ -74,105 +90,143 @@
 <h3 id="daily-activity-log">Daily Activity Log</h3>
 <p>The main body of the report is a day-by-day table of activities:</p>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Day</th>
-<th>Hours</th>
-<th>Activities</th>
-</tr></thead>
+<thead><tr><th>Day</th><th>Hours</th><th>Activities</th></tr></thead>
 <tbody>
-<tr>
-<td>Monday</td>
-<td>0730-2000</td>
-<td>Monday Staff meeting. Event coordination for the week. [Description of key tasks and activities].</td>
-</tr>
-<tr>
-<td>Tuesday</td>
-<td>0800-2000</td>
-<td>[Description of activities]. Candidate emails. [Additional tasks].</td>
-</tr>
-<tr>
-<td>Wednesday</td>
-<td>OOS / hours</td>
-<td>N/A (or description of activities if working)</td>
-</tr>
-<tr>
-<td>Thursday</td>
-<td>0730-2030</td>
-<td>[Description of activities]. CRR meeting. Candidate emails.</td>
-</tr>
-<tr>
-<td>Friday</td>
-<td>0730-2000</td>
-<td>Candidate emails. Weekly report. [Additional tasks].</td>
-</tr>
-<tr>
-<td>Saturday</td>
-<td>OOS / hours</td>
-<td>N/A (or description if working, e.g., Civil Service Exam day)</td>
-</tr>
+<tr><td>Monday</td><td>0730-2000</td><td>Monday Staff meeting. Event coordination for the week. [Description of key tasks and activities].</td></tr>
+<tr><td>Tuesday</td><td>0800-2000</td><td>[Description of activities]. Candidate emails. [Additional tasks].</td></tr>
+<tr><td>Wednesday</td><td>OOS / hours</td><td>N/A (or description of activities if working)</td></tr>
+<tr><td>Thursday</td><td>0730-2030</td><td>[Description of activities]. CRR meeting. Candidate emails.</td></tr>
+<tr><td>Friday</td><td>0730-2000</td><td>Candidate emails. Weekly report. [Additional tasks].</td></tr>
+<tr><td>Saturday</td><td>OOS / hours</td><td>N/A (or description if working, e.g., Civil Service Exam day)</td></tr>
 </tbody></table></div>
 <h3 id="events-section">Events Section</h3>
-<p>List notable events attended or executed during the week (e.g., &quot;Calhoun Middle School Recruiting&quot;, &quot;Civil Service Exam&quot;).</p>
+<p>List notable events attended or executed during the week (e.g., "Calhoun Middle School Recruiting", "Civil Service Exam").</p>
 <h3 id="budget-expenses-section">Budget Expenses Section</h3>
 <p>List all P-Card expenditures for the week in the standard table format (Budget total, Amount, Account code, Description).</p>
 <h3 id="next-week-preview">Next Week Preview</h3>
 <p>Brief day-by-day outline of planned activities for the following week. Example format:</p>
 <ul>
 <li>M: Holiday / Staff meeting / [planned activity]</li>
-</ul>
-<ul>
 <li>T: [planned activity]</li>
-</ul>
-<ul>
 <li>W: [planned activity] / OOS</li>
-</ul>
-<ul>
 <li>Th: CRR Meeting / [planned activity]</li>
-</ul>
-<ul>
 <li>F: [planned activity]</li>
-</ul>
-<ul>
 <li>S: OOS</li>
 </ul>
 <h2 id="13-3-report-formatting">13.3 Report Formatting</h2>
 <p>Weekly reports follow DFD branding standards:</p>
 <ul>
 <li>DFD logo in header</li>
-</ul>
-<ul>
 <li>Times New Roman 12pt font for body text</li>
-</ul>
-<ul>
-<li>Red accent line (\#CC0000) under header</li>
-</ul>
-<ul>
+<li>Red accent line (#CC0000) under header</li>
 <li>Clean, professional formatting</li>
 </ul>
-<p>See the Power Automate Setup Guide (Appendix D) for automation workflow details.</p>
+<p>See the Power Automate Setup Guide (listed in Chapter 17.4) for automation workflow details.</p>
 <h2 id="13-4-power-automate-integration">13.4 Power Automate Integration</h2>
 <p>Weekly reports can be auto-generated from SharePoint lists using Microsoft Power Automate. The system pulls from:</p>
 <ul>
-<li>CRR Weekly Activities list — Email logs, tasks completed</li>
+<li>CRR Weekly Activities list: Email logs, tasks completed</li>
+<li>CRR Expenses list: Expense records with budget codes</li>
+<li>ESO Events Log list: Community events attended</li>
+<li>Outlook Calendar: Meetings and appointments</li>
 </ul>
+<p>The report flow runs every Sunday at 8 PM CST, compiles the week's data, generates a formatted document, and sends a notification email. See the Power Automate Setup Guide for complete configuration details.</p>
+<h2 id="13-5-crr-dashboard-slides">13.5 CRR Dashboard Slides</h2>
+<p>The CRR Officer produces presentation slides that display on the department's First Arriving Dashboards system. These Chromebox-powered screens are installed at all nine fire stations, the Administration lobby, Fire Prevention/Inspections at the DSC, and Command displays. CRR slides rotate alongside ICS alert data, Telestaff roster information, turnout time data, and department announcements, giving station crews and visitors visibility into upcoming and completed community events.</p>
+<h3 id="first-arriving-dashboards-system">First Arriving Dashboards System</h3>
+<p>First Arriving provides the digital signage platform used department-wide. Key operational details:</p>
 <ul>
-<li>CRR Expenses list — Expense records with budget codes</li>
+<li><strong>Support:</strong> support@firstarriving.com (email creates a ticket)</li>
+<li><strong>Knowledge Base:</strong> support.firstarriving.com/support/solutions</li>
+<li><strong>Wi-Fi:</strong> All devices connect via City of Denton Public Internet</li>
+<li><strong>Dashboard portal:</strong> portal.firstarrivingdigital.com/dashboard (used to refresh devices; Bret Densmore is admin)</li>
+<li><strong>Portal2:</strong> portal2.firstarrivingdigital.com/login (view-only access to all displays; no paid subscription required)</li>
 </ul>
-<ul>
-<li>ESO Events Log list — Community events attended</li>
-</ul>
-<ul>
-<li>Outlook Calendar — Meetings and appointments</li>
-</ul>
-<p>The report flow runs every Sunday at 8 PM CST, compiles the week&#x27;s data, generates a formatted document, and sends a notification email. See the Power Automate Setup Guide for complete configuration details.</p>
-      <div class="page-nav"><a href="ch12.html"><span class="nav-label">← Previous</span>Ch 12: Budget</a><a href="ch14.html" class="nav-next"><span class="nav-label">Next →</span>Ch 14: Quarterly Appraisals</a></div>
+<p>Data feeds into the system from multiple sources:</p>
+<div class="table-wrapper"><table>
+<thead><tr><th>Feed</th><th>Delivery Method</th><th>Managed By</th></tr></thead>
+<tbody>
+<tr><td>Roster Data</td><td>Telestaff via SFTP (daily)</td><td>Jim Barnes</td></tr>
+<tr><td>Turnout Data</td><td>ESO Ad Hoc Reporting via email (daily) [currently disabled pending NERIS transition]</td><td>Alison Andrews</td></tr>
+<tr><td>Unit Status</td><td>Telestaff via SFTP (daily)</td><td>Bret Densmore</td></tr>
+<tr><td>ICS Alerts</td><td>Email to dedicated First Arriving address</td><td>David Morin</td></tr>
+<tr><td>Announcements</td><td>Google Sheets</td><td>[designated staff]</td></tr>
+<tr><td>Slides (including CRR content)</td><td>Google Slides</td><td>CRR Officer</td></tr>
+</tbody></table></div>
+<p>ICS alert displays are filtered by station. Each station dashboard receives alerts only for its assigned units. The Fire Prevention/DSC display receives all fire, bomb, and mass casualty call types. The Administration lobby display is unfiltered and receives all department alerts. Command displays pair via 6-digit code at dashboards.firstarrivingdigital.com.</p>
+<h3 id="station-unit-assignments-ics-alert-filtering">Station Unit Assignments (ICS Alert Filtering)</h3>
+<div class="table-wrapper"><table>
+<thead><tr><th>Station</th><th>Assigned Units</th></tr></thead>
+<tbody>
+<tr><td>Station 1</td><td>M1, E1, T1, R1, BAT1, T11, B1N</td></tr>
+<tr><td>Station 2</td><td>M2, E2, B2, BLK2, REHAB2, M12, E12, EMS2</td></tr>
+<tr><td>Station 3</td><td>M3, E3, BAT2, BLK3, L3, B2N, HM3</td></tr>
+<tr><td>Station 4</td><td>M4, E4, B4, E14, M14, M24, UTL4</td></tr>
+<tr><td>Station 5</td><td>M5, E5, B5, BOAT5, BOAT15</td></tr>
+<tr><td>Station 6</td><td>M6, E6, M16</td></tr>
+<tr><td>Station 7</td><td>M7, E7, B7, DCON7, E17</td></tr>
+<tr><td>Station 8</td><td>M8, E8</td></tr>
+<tr><td>Station 9</td><td>E9, SQ9, RIV9, ARFF9</td></tr>
+</tbody></table></div>
+<h3 id="slide-management">Slide Management</h3>
+<p>All dashboard slides, including CRR content, are managed through a shared Google Slides deck:</p>
+<p>docs.google.com/presentation/d/1lLbLBetNFz4c2vh2bdmFoi88qPGJFrCe3o-Lv8O5naw</p>
+<p>Department announcements are managed separately through a Google Sheet:</p>
+<p>docs.google.com/spreadsheets/d/10NPFMEg_yDafaavoloAIrWh9O6RwOx8a_SxBho8uGLg</p>
+<p>To publish a CRR slide, the CRR Officer generates the slide using the build script (see Build Process below), exports it as a PNG or copies the layout into the shared Google Slides deck, and the First Arriving system picks up the update automatically on the next display cycle.</p>
+<h3 id="standard-slide-format">Standard Slide Format</h3>
+<p>The standard CRR dashboard slide uses a white background with DFD branding elements drawn from the Knox Box site design system (dentonfire.github.io/Knox-Box/). The color palette is:</p>
+<div class="table-wrapper"><table>
+<thead><tr><th>Color</th><th>Hex</th><th>Usage</th></tr></thead>
+<tbody>
+<tr><td>Navy</td><td>#152a40</td><td>Title text, header row, footer bar, date range badge background</td></tr>
+<tr><td>Red</td><td>#bf2726</td><td>Overdue status badges</td></tr>
+<tr><td>Yellow</td><td>#f9c031</td><td>Subtitle text, yellow divider line, date range badge text, Scheduled status badges</td></tr>
+<tr><td>Green</td><td>#28a745</td><td>Completed status badges</td></tr>
+<tr><td>White</td><td>#FFFFFF</td><td>Slide background</td></tr>
+<tr><td>Light Gray</td><td>#E8EDF2</td><td>Alternating row backgrounds</td></tr>
+</tbody></table></div>
+<h3 id="slide-layout-16-9-10-x-5-625-inches">Slide Layout (16:9, 10 x 5.625 inches)</h3>
+<p>The slide is organized into four zones from top to bottom:</p>
+<p><strong>Header Zone</strong> (top 1.2 inches). DFD patch logo at top left (0.65 x 0.87 inches). Title "Community Risk Reduction" in Arial Black 22pt, navy. Subtitle "Community Events" in Arial Bold 13pt, yellow. Date range badge at top right with navy rounded rectangle background and yellow text. Yellow horizontal divider line below the header, full width.</p>
+<p><strong>Summary Zone</strong> (1.2 to 1.8 inches). Three status chips showing counts for Completed (green dot), Scheduled (yellow dot), and Overdue (red dot) if applicable. Source attribution "Source: ESO Community Events" in italic at far right.</p>
+<p><strong>Table Zone</strong> (1.8 to 5.0 inches). Navy header row with column labels: DATE, ACTIVITY, LOCATION, UNIT, STATUS. Alternating row backgrounds (light gray and white on white slides, or navy tint variations on dark slides). Each row contains: date and time (bold date, muted time), activity name in bold, location with address in muted text, assigned unit, and a color-coded status badge (rounded pill shape).</p>
+<p><strong>Footer Zone</strong> (bottom 0.475 inches). Navy bar with thin yellow accent line on top. Centered text: "Denton Fire Department | Support Services Division | Captain Hunter Lott, CRRO" in muted text.</p>
+<h3 id="status-badge-definitions">Status Badge Definitions</h3>
+<div class="table-wrapper"><table>
+<thead><tr><th>Badge</th><th>Color</th><th>Criteria</th></tr></thead>
+<tbody>
+<tr><td>COMPLETED</td><td>Green</td><td>Event has occurred and been documented in ESO</td></tr>
+<tr><td>SCHEDULED</td><td>Yellow</td><td>Event is confirmed and appears on the ESO calendar but has not yet occurred</td></tr>
+<tr><td>OVERDUE</td><td>Red</td><td>Event date has passed without a completion record in ESO</td></tr>
+</tbody></table></div>
+<h3 id="reporting-cadence">Reporting Cadence</h3>
+<p>Dashboard slides cover two-week windows aligned with the ESO event calendar. The CRR Officer produces these slides on a biweekly basis or as needed for department update meetings. Each slide reflects only the events within that specific date range. Because these slides display on station dashboards, crews can see their assigned community events for the current period without checking ESO directly.</p>
+<h3 id="data-source">Data Source</h3>
+<p>All event data is pulled from the ESO Community Events system. Events are logged by station crews and the CRR Officer. The ESO record for each event includes the date, time, activity name, location, and assigned unit or individual. The CRR Officer reviews ESO records for accuracy before producing the dashboard slide.</p>
+<h3 id="build-process">Build Process</h3>
+<p>Dashboard slides are generated using PptxGenJS (Node.js) via a build script. The script reads event data, applies the standard layout and color palette, and outputs a .pptx file. The build script and a background texture asset (navy with isometric cube pattern, matching the Knox Box site) are maintained in the CRR Officer's working files.</p>
+<p>To generate a slide, update the events array in the build script with current ESO data, then run:</p>
+<p><code>node build_slide.js</code></p>
+<p>The output file is saved as <code>CRR_Community_Events_[date-range].pptx</code>. After generating, export the slide as a PNG or recreate the layout in the shared Google Slides deck for First Arriving to pick up.</p>
+<h3 id="background-variants">Background Variants</h3>
+<p>Three background options are available for the dashboard slide:</p>
+<ol>
+<li><strong>Dark navy with cube texture</strong> (full coverage) -- matches Knox Box site exactly. Best for projected display on station dashboards.</li>
+<li><strong>Dark navy with fading cube texture</strong> -- cubes visible at top, fading to solid navy in bottom third. Keeps visual interest while providing clean space for the event table.</li>
+<li><strong>White background</strong> (standard) -- white slide with navy text and accent elements. Selected as the default for department meetings and printed handouts. Also works well on station dashboards in well-lit dayrooms.</li>
+</ol>
+<p>The background texture image (<code>cubes_on_navy_fade_1920x1080.png</code>) is a 1920x1080 PNG with the isometric cube pattern composited onto the navy background with a top-to-bottom opacity fade. It can be applied as a slide background in PowerPoint or Google Slides.</p>
+      <div class="page-nav"><a href="ch12.html"><span class="nav-label">&larr; Previous</span>Ch 12: Budget</a><a href="ch14.html" class="nav-next"><span class="nav-label">Next &rarr;</span>Ch 14: Quarterly Appraisals</a></div>
     </div>
     <footer class="site-footer">
-      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Denton Fire Department | CRR Officer Operations Manual v0.3 | October 2026<br>
       Prepared by Captain Hunter Lott, Community Risk Reduction Officer
     </footer>
   </main>
 
   <script src="assets/nav.js"></script>
+  <script src="assets/search-index.js" defer></script>
+  <script src="assets/search.js" defer></script>
 </body>
 </html>

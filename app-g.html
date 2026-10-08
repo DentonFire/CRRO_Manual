@@ -3,47 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>App G: Vendor Reference — DFD CRR Officer Operations Manual</title>
+  <title>App G: Vendor Reference | DFD CRR Officer Operations Manual</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
   <header class="site-header">
-    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
     <a href="index.html" class="header-brand">
       <span class="header-badge">DFD</span>
       <span class="header-title">CRR Officer Operations Manual</span>
     </a>
-    <span class="header-subtitle">v0.2 — March 2026</span>
+    <span class="header-subtitle">v0.3 | October 2026</span>
+    <div class="hs" role="search">
+      <button class="hs-open" type="button" aria-label="Search the manual">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="hs-field">
+        <svg class="hs-icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input class="hs-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search the manual"
+               role="combobox" aria-expanded="false" aria-controls="hs-list" aria-autocomplete="list" aria-label="Search the manual">
+        <kbd class="hs-key">/</kbd>
+      </div>
+      <div class="hs-panel" id="hs-panel" hidden>
+        <ul class="hs-list" id="hs-list" role="listbox"></ul>
+        <div class="hs-foot"></div>
+      </div>
+    </div>
   </header>
 
   <nav class="sidebar">
     <a href="index.html" class="nav-link">Home</a>
+    <a href="search.html" class="nav-link">Search</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART I: FOUNDATION</div></div>
     <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
     <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
     <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART II: CRR OPERATIONS</div></div>
     <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
     <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
     <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
     <a href="ch07.html" class="nav-link">Ch 7: CRR Tech Tools</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART III: RECRUITMENT &amp; HIRING</div></div>
     <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
     <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
     <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
     <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV: ADMINISTRATION</div></div>
     <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
     <a href="ch13.html" class="nav-link">Ch 13: Weekly Reporting</a>
     <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
-    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation &amp; Pension</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART V: TECHNOLOGY</div></div>
     <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
     <a href="ch17.html" class="nav-link">Ch 17: System Admin</a>
     <div class="nav-divider"></div>
@@ -65,80 +81,34 @@
       <span class="chapter-number">Appendix G</span>
 <h1>Vendor Reference Guide</h1>
 <p>This appendix provides a consolidated reference for all external vendors, platforms, and service providers used in CRR and Recruitment operations. For login credentials and account details, see the <strong>[CRR Credentials Document]</strong> on the department intranet shared drive (password-protected).</p>
-<p>&gt; <strong>Security Note:</strong> Usernames, passwords, and account IDs are not stored in this manual. All credentials are maintained in a password-protected document on the department&#x27;s secure shared drive. When transitioning the CRR Officer position, the outgoing officer must transfer access to this document and walk through each vendor account with the successor.</p>
+<div class="callout callout-warning">
+<strong>Security Note:</strong> Usernames, passwords, and account IDs are not stored in this manual. All credentials are maintained in a password-protected document on the department's secure shared drive. When transitioning the CRR Officer position, the outgoing officer must transfer access to this document and walk through each vendor account with the successor.
+</div>
 <h2 id="g-1-vendor-directory">G.1 Vendor Directory</h2>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Vendor</th>
-<th>Service</th>
-<th>Used For</th>
-<th>Account Type</th>
-<th>Contract/Billing</th>
-</tr></thead>
+<thead><tr><th>Vendor</th><th>Service</th><th>Used For</th><th>Account Type</th><th>Contract/Billing</th></tr></thead>
 <tbody>
-<tr>
-<td>FPSI (Fire &amp; Police Selection)</td>
-<td>Civil Service Exam</td>
-<td>Written exam development, scoring, ranking</td>
-<td>Per-exam contract</td>
-<td>Invoiced per exam cycle</td>
-</tr>
-<tr>
-<td>Converus (VerifEYE)</td>
-<td>Credibility Assessment</td>
-<td>Eye-tracking polygraph replacement (V4R)</td>
-<td>Subscription</td>
-<td>Annual subscription</td>
-</tr>
-<tr>
-<td>Concentra</td>
-<td>Occupational Health</td>
-<td>Pre-employment medical exams</td>
-<td>Per-candidate</td>
-<td>~$825/candidate (320100.7726)</td>
-</tr>
-<tr>
-<td>Pepper &amp; Associates</td>
-<td>Psychological Testing</td>
-<td>Pre-employment psych evaluations</td>
-<td>Per-candidate</td>
-<td>~$215/candidate (320100.7726)</td>
-</tr>
-<tr>
-<td>Constant Contact</td>
-<td>Email Marketing</td>
-<td>CRR + Recruiting newsletters</td>
-<td>Monthly subscription</td>
-<td>Paid via P-Card</td>
-</tr>
-<tr>
-<td>Subtext</td>
-<td>Text Messaging</td>
-<td>Community/candidate text outreach</td>
-<td>Monthly subscription</td>
-<td>Paid via P-Card</td>
-</tr>
-<tr>
-<td>DroneSense</td>
-<td>UAS Operations</td>
-<td>Drone fleet management and reporting</td>
-<td>Subscription</td>
-<td>Department account</td>
-</tr>
+<tr><td>FPSI (Fire &amp; Police Selection)</td><td>Civil Service Exam</td><td>Written exam development, scoring, ranking</td><td>Per-exam contract</td><td>Invoiced per exam cycle</td></tr>
+<tr><td>Converus (VerifEYE)</td><td>Credibility Assessment</td><td>Eye-tracking polygraph replacement (V4R)</td><td>Subscription</td><td>Annual subscription</td></tr>
+<tr><td>Concentra</td><td>Occupational Health</td><td>Pre-employment medical exams</td><td>Per-candidate</td><td>~$798/candidate (320100.7726)</td></tr>
+<tr><td>Pepper &amp; Associates</td><td>Psychological Testing</td><td>Pre-employment psych evaluations</td><td>Per-candidate</td><td>~$230/candidate (320100.7726)</td></tr>
+<tr><td>Constant Contact</td><td>Email Marketing</td><td>CRR + Recruiting newsletters</td><td>Monthly subscription</td><td>Paid via P-Card</td></tr>
+<tr><td>Subtext</td><td>Text Messaging</td><td>Community/candidate text outreach</td><td>Monthly subscription</td><td>Paid via P-Card</td></tr>
+<tr><td>DroneSense</td><td>UAS Operations</td><td>Drone fleet management and reporting</td><td>Subscription</td><td>Department account</td></tr>
 </tbody></table></div>
-<h2 id="g-2-verifeye-converus-credibility-assessment">G.2 VerifEYE / Converus — Credibility Assessment</h2>
+<h2 id="g-2-verifeye-converus-credibility-assessment">G.2 VerifEYE / Converus: Credibility Assessment</h2>
 <h3 id="overview">Overview</h3>
 <p>VerifEYE is an eye-tracking based credibility assessment that replaced traditional polygraph testing for DFD candidate screening. The system measures involuntary eye behavior changes when a subject is being deceptive.</p>
 <ul>
 <li><strong>Test Version:</strong> V4R (4 topics)</li>
 <li><strong>Test ID (No Admissions):</strong> 3843</li>
 <li><strong>Delivery:</strong> Solo Mode (candidate completes remotely on mobile device) or Proctored (in-person)</li>
-<li><strong>Dashboard:</strong> Converus admin portal — generates test links, displays results</li>
+<li><strong>Dashboard:</strong> Converus admin portal: generates test links, displays results</li>
 <li><strong>MFA:</strong> Microsoft Authenticator on CRR Officer work phone</li>
 </ul>
 <h3 id="test-types">Test Types</h3>
 <ul>
-<li><strong>No Admissions:</strong> Standard test for candidates whose Pre-Test Questionnaire shows no disqualifying admissions (&quot;clean&quot; questionnaire)</li>
+<li><strong>No Admissions:</strong> Standard test for candidates whose Pre-Test Questionnaire shows no disqualifying admissions ("clean" questionnaire)</li>
 <li><strong>Admissions:</strong> Used when candidate disclosed issues on the Pre-Test Questionnaire. Verifies the completeness and truthfulness of disclosures.</li>
 </ul>
 <h3 id="four-test-topics-v4r">Four Test Topics (V4R)</h3>
@@ -150,7 +120,7 @@
 </ol>
 <h3 id="workflow">Workflow</h3>
 <ol>
-<li>Review candidate&#x27;s Pre-Test Questionnaire responses</li>
+<li>Review candidate's Pre-Test Questionnaire responses</li>
 <li>Determine test type (No Admissions vs. Admissions) based on four trigger categories</li>
 <li>Log into Converus dashboard (credentials in secure credentials document)</li>
 <li>Generate test link for appropriate test type</li>
@@ -160,47 +130,17 @@
 </ol>
 <h3 id="supporting-documentation">Supporting Documentation</h3>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Document</th>
-<th>Purpose</th>
-</tr></thead>
+<thead><tr><th>Document</th><th>Purpose</th></tr></thead>
 <tbody>
-<tr>
-<td>Denton Fire Dept Pre-employment No Admissions</td>
-<td>Test configuration for No Admissions V4R (test ID 3843)</td>
-</tr>
-<tr>
-<td>Solo Mode — Sending Test Link Instructions</td>
-<td>Step-by-step guide for generating and sending test links</td>
-</tr>
-<tr>
-<td>V3R/V4R Pretest Checklist (Verbal)</td>
-<td>Script for proctored (in-person) test administration</td>
-</tr>
-<tr>
-<td>Google Authenticator Setup Guide</td>
-<td>Two-factor authentication setup for admin portal</td>
-</tr>
-<tr>
-<td>VerifEye Dashboard Admin Training</td>
-<td>Live training guide for the results dashboard</td>
-</tr>
-<tr>
-<td>Introduction to Dashboard</td>
-<td>Overview of the reporting dashboard</td>
-</tr>
-<tr>
-<td>Base Rates Reference</td>
-<td>Statistical base rate info for screening accuracy</td>
-</tr>
-<tr>
-<td>Why False Positives and False Negatives</td>
-<td>Test accuracy limitations and result interpretation</td>
-</tr>
-<tr>
-<td>Applicant Questionnaire (Legacy)</td>
-<td>North Texas Polygraph questionnaire (replaced by DFD version)</td>
-</tr>
+<tr><td>Denton Fire Dept Pre-employment No Admissions</td><td>Test configuration for No Admissions V4R (test ID 3843)</td></tr>
+<tr><td>Solo Mode: Sending Test Link Instructions</td><td>Step-by-step guide for generating and sending test links</td></tr>
+<tr><td>V3R/V4R Pretest Checklist (Verbal)</td><td>Script for proctored (in-person) test administration</td></tr>
+<tr><td>Google Authenticator Setup Guide</td><td>Two-factor authentication setup for admin portal</td></tr>
+<tr><td>VerifEye Dashboard Admin Training</td><td>Live training guide for the results dashboard</td></tr>
+<tr><td>Introduction to Dashboard</td><td>Overview of the reporting dashboard</td></tr>
+<tr><td>Base Rates Reference</td><td>Statistical base rate info for screening accuracy</td></tr>
+<tr><td>Why False Positives and False Negatives</td><td>Test accuracy limitations and result interpretation</td></tr>
+<tr><td>Applicant Questionnaire (Legacy)</td><td>North Texas Polygraph questionnaire (replaced by DFD version)</td></tr>
 </tbody></table></div>
 <h3 id="succession-notes">Succession Notes</h3>
 <p>When transferring this position, the new CRR Officer will need to:</p>
@@ -210,7 +150,7 @@
 <li>Review the Solo Mode instructions and Dashboard Admin Training docs</li>
 <li>Contact Converus support if MFA device re-registration is needed</li>
 </ul>
-<h2 id="g-3-fpsi-civil-service-exam">G.3 FPSI — Civil Service Exam</h2>
+<h2 id="g-3-fpsi-civil-service-exam">G.3 FPSI: Civil Service Exam</h2>
 <p>Fire &amp; Police Selection, Inc. (FPSI) provides the written Civil Service exam for firefighter hiring. The CRR Officer coordinates with FPSI for:</p>
 <ul>
 <li>Exam material ordering and delivery logistics</li>
@@ -219,7 +159,7 @@
 <li>Exam security and proctoring requirements</li>
 </ul>
 <p>Exams are typically scheduled per hiring cycle. Coordinate scheduling at least 8-10 weeks in advance. FPSI provides exam booklets, answer sheets, and scoring services. Results are returned to the CRR Officer who applies preference points and generates the ranked eligibility list.</p>
-<h2 id="g-4-concentra-pre-employment-medical">G.4 Concentra — Pre-Employment Medical</h2>
+<h2 id="g-4-concentra-pre-employment-medical">G.4 Concentra: Pre-Employment Medical</h2>
 <p>Concentra provides occupational health services for conditional hires:</p>
 <ul>
 <li>NFPA 1582-compliant medical examination</li>
@@ -227,36 +167,38 @@
 <li>Hearing and vision testing</li>
 <li>Pulmonary function testing</li>
 </ul>
-<p><strong>Cost:</strong> ~$825 per candidate (charged to 320100.7726)</p>
+<p><strong>Cost:</strong> ~$798 per candidate in FY 25-26 (charged to 320100.7726)</p>
 <p><strong>Location:</strong> Denton area Concentra clinic</p>
 <p><strong>Scheduling:</strong> CRR Officer schedules appointments after conditional letter of employment</p>
-<h2 id="g-5-pepper-associates-psychological-evaluation">G.5 Pepper &amp; Associates — Psychological Evaluation</h2>
+<h2 id="g-5-pepper-associates-psychological-evaluation">G.5 Pepper &amp; Associates: Psychological Evaluation</h2>
 <p>Pepper &amp; Associates provides pre-employment psychological evaluations:</p>
 <ul>
 <li>NFPA 1582 psychological screening</li>
 <li>Candidate assessment report provided to CRR Officer</li>
 </ul>
-<p><strong>Cost:</strong> ~$215 per candidate (charged to 320100.7726)</p>
+<p><strong>Cost:</strong> ~$230 per candidate in FY 25-26 (charged to 320100.7726)</p>
 <p><strong>Scheduling:</strong> CRR Officer schedules after conditional letter of employment, typically same week as medical</p>
-<h2 id="g-6-constant-contact-newsletter-platform">G.6 Constant Contact — Newsletter Platform</h2>
+<h2 id="g-6-constant-contact-newsletter-platform">G.6 Constant Contact: Newsletter Platform</h2>
 <p>The CRR Officer is the sole administrator of the DFD Constant Contact account.</p>
 <ul>
-<li><strong>CRR Newsletter:</strong> Monthly, 471 subscribers (as of Q1 FY 25-26)</li>
-<li><strong>Recruiting Newsletter (&quot;Ready to Serve&quot;):</strong> As-needed during hiring cycles, 3,960 subscribers</li>
+<li><strong>The Frontline Report (CRR):</strong> Monthly, 536 subscribers (as of September 30, 2026)</li>
+<li><strong>Ready to Serve (Recruiting):</strong> Monthly, first Tuesday, 5,186 subscribers (as of September 30, 2026)</li>
 </ul>
 <p>Key administrative tasks: managing subscriber lists, creating/scheduling campaigns, monitoring analytics (deliverability, bounce rates, spam complaints), maintaining CAN-SPAM compliance, exporting data for quarterly reports, archiving newsletter links.</p>
 <p><strong>[ACTION REQUIRED]</strong> New CRR Officer must obtain Constant Contact login credentials from the secure credentials document and be added as account administrator.</p>
 <h2 id="g-7-dfd-pre-test-questionnaire">G.7 DFD Pre-Test Questionnaire</h2>
 <p>The DFD Pre-Test Questionnaire is a fillable PDF maintained by the CRR Officer. The current version (February 2026) contains 10 sections covering: drug use, employment termination, criminal activity, terrorism, honesty/integrity, prior fire/LE service, alcohol, other applications, prostitution (with military overseas exception), and a certification/signature page.</p>
 <p>The fillable PDF is stored on the SharePoint HUB. Update the questionnaire if Hiring Guidelines are revised or if VerifEYE test topics change.</p>
-      <div class="page-nav"><a href="app-f.html"><span class="nav-label">← Previous</span>App F: Email Templates</a><a href="app-h.html" class="nav-next"><span class="nav-label">Next →</span>App H: CRR Calendar</a></div>
+      <div class="page-nav"><a href="app-f.html"><span class="nav-label">&larr; Previous</span>App F: Email Templates</a><a href="app-h.html" class="nav-next"><span class="nav-label">Next &rarr;</span>App H: CRR Calendar</a></div>
     </div>
     <footer class="site-footer">
-      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Denton Fire Department | CRR Officer Operations Manual v0.3 | October 2026<br>
       Prepared by Captain Hunter Lott, Community Risk Reduction Officer
     </footer>
   </main>
 
   <script src="assets/nav.js"></script>
+  <script src="assets/search-index.js" defer></script>
+  <script src="assets/search.js" defer></script>
 </body>
 </html>

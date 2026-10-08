@@ -3,47 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ch 12: Budget — DFD CRR Officer Operations Manual</title>
+  <title>Ch 12: Budget | DFD CRR Officer Operations Manual</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
   <header class="site-header">
-    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
     <a href="index.html" class="header-brand">
       <span class="header-badge">DFD</span>
       <span class="header-title">CRR Officer Operations Manual</span>
     </a>
-    <span class="header-subtitle">v0.2 — March 2026</span>
+    <span class="header-subtitle">v0.3 | October 2026</span>
+    <div class="hs" role="search">
+      <button class="hs-open" type="button" aria-label="Search the manual">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="hs-field">
+        <svg class="hs-icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input class="hs-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search the manual"
+               role="combobox" aria-expanded="false" aria-controls="hs-list" aria-autocomplete="list" aria-label="Search the manual">
+        <kbd class="hs-key">/</kbd>
+      </div>
+      <div class="hs-panel" id="hs-panel" hidden>
+        <ul class="hs-list" id="hs-list" role="listbox"></ul>
+        <div class="hs-foot"></div>
+      </div>
+    </div>
   </header>
 
   <nav class="sidebar">
     <a href="index.html" class="nav-link">Home</a>
+    <a href="search.html" class="nav-link">Search</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART I: FOUNDATION</div></div>
     <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
     <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
     <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART II: CRR OPERATIONS</div></div>
     <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
     <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
     <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
     <a href="ch07.html" class="nav-link">Ch 7: CRR Tech Tools</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART III: RECRUITMENT &amp; HIRING</div></div>
     <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
     <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
     <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
     <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV: ADMINISTRATION</div></div>
     <a href="ch12.html" class="nav-link active">Ch 12: Budget</a>
     <a href="ch13.html" class="nav-link">Ch 13: Weekly Reporting</a>
     <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
-    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation &amp; Pension</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART V: TECHNOLOGY</div></div>
     <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
     <a href="ch17.html" class="nav-link">Ch 17: System Admin</a>
     <div class="nav-divider"></div>
@@ -67,169 +83,106 @@
 <h2 id="12-1-budget-overview">12.1 Budget Overview</h2>
 <p>The CRR Officer manages four budget accounts totaling $36,150 annually. All expenditures must be properly coded, documented, and reconciled through the P-Card process.</p>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Account \#</th>
-<th>Description</th>
-<th>Annual Budget</th>
-<th>Typical Expenditures</th>
-</tr></thead>
+<thead><tr><th>Account #</th><th>Description</th><th>Annual Budget</th><th>Typical Expenditures</th></tr></thead>
 <tbody>
-<tr>
-<td>320100.7726</td>
-<td>Physicals/Psych</td>
-<td>$4,650</td>
-<td>Concentra medical exams (\~$825 ea), Pepper Psych evaluations (\~$215 ea)</td>
-</tr>
-<tr>
-<td>320100.6508</td>
-<td>Other</td>
-<td>$1,500</td>
-<td>Miscellaneous expenses, office supplies, BSA dues ($66.95/instructor)</td>
-</tr>
-<tr>
-<td>320100.7826</td>
-<td>Diversity</td>
-<td>$20,000</td>
-<td>ELEVATE events, diverse career fairs, PAT equipment (sled, weights), recruiting materials</td>
-</tr>
-<tr>
-<td>320200.7764</td>
-<td>Pub Education</td>
-<td>$10,000</td>
-<td>CRR materials, printing, event supplies, promotional items, handouts</td>
-</tr>
-<tr>
-<td><strong>TOTAL</strong></td>
-<td></td>
-<td><strong>$36,150</strong></td>
-<td></td>
-</tr>
+<tr><td>320100.7726</td><td>Physicals/Psych</td><td>$4,650</td><td>Concentra medical exams (~$798 ea), Pepper Psych evaluations (~$230 ea)</td></tr>
+<tr><td>320100.6508</td><td>Other</td><td>$1,500</td><td>Office supplies, camera equipment, batteries, cables, seminars</td></tr>
+<tr><td>320100.7826</td><td>Diversity</td><td>$20,000</td><td>ELEVATE events, diverse career fairs, PAT equipment (sled, weights), recruiting materials</td></tr>
+<tr><td>320200.7764</td><td>Pub Education</td><td>$10,000</td><td>CRR materials, printing, event supplies, promotional items, handouts</td></tr>
+<tr><td><strong>TOTAL</strong></td><td></td><td><strong>$36,150</strong></td><td></td></tr>
 </tbody></table></div>
-<h2 id="12-2-q1-fy-25-26-budget-status">12.2 Q1 FY 25-26 Budget Status</h2>
-<p>As of the Q1 Program Appraisal (January 2026), budget utilization was as follows:</p>
+<h2 id="12-2-fy-25-26-year-end-budget-status">12.2 FY 25-26 Year-End Budget Status</h2>
+<p>FY 25-26 closed September 30, 2026, reconciled to the JD Edwards general ledger:</p>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Account</th>
-<th>Allocation</th>
-<th>YTD Spent</th>
-<th>Remaining</th>
-<th>% Spent</th>
-<th>On Track</th>
-</tr></thead>
+<thead><tr><th>Account</th><th>Allocation</th><th>Spent</th><th>Remaining</th><th>% Spent</th></tr></thead>
 <tbody>
-<tr>
-<td>320100.7726</td>
-<td>$4,650</td>
-<td>$0.00</td>
-<td>$4,650.00</td>
-<td>0%</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>320100.6508</td>
-<td>$1,500</td>
-<td>$80.35</td>
-<td>$1,419.65</td>
-<td>5%</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>320100.7826</td>
-<td>$20,000</td>
-<td>$1,183.89</td>
-<td>$18,816.11</td>
-<td>6%</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>320200.7764</td>
-<td>$10,000</td>
-<td>$1,873.70</td>
-<td>$8,126.30</td>
-<td>19%</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td><strong>TOTAL</strong></td>
-<td><strong>$36,200</strong></td>
-<td><strong>$3,137.94</strong></td>
-<td><strong>$33,062.06</strong></td>
-<td><strong>9%</strong></td>
-<td></td>
-</tr>
+<tr><td>320100.7726 Physicals/Psych</td><td>$4,650</td><td>$4,112.00</td><td>$538.00</td><td>88%</td></tr>
+<tr><td>320100.6508 Other</td><td>$1,500</td><td>$1,448.92</td><td>$51.08</td><td>97%</td></tr>
+<tr><td>320100.7826 Diversity</td><td>$20,000</td><td>$12,611.35</td><td>$7,388.65</td><td>63%</td></tr>
+<tr><td>320200.7764 Pub Education</td><td>$10,000</td><td>$9,527.30</td><td>$472.70</td><td>95%</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>$36,150</strong></td><td><strong>$27,699.57</strong></td><td><strong>$8,450.43</strong></td><td><strong>77%</strong></td></tr>
 </tbody></table></div>
+<p>The 7726 figure is the Pepper Psych ($920.00) and Concentra ($3,192.00) preemployment payments for four candidates: $230 per psychological evaluation and $798 per physical, or $1,028 per candidate all in. The allocation funds about four and a half candidates a year.</p>
+<p>FY 25-26 Explorer instructor dues ($66.95 each) posted to 320200.7764 (three) and 320100.7826 (one), not 6508. Code them consistently in FY 26-27.</p>
 <h2 id="12-3-p-card-procedures">12.3 P-Card Procedures</h2>
 <p>The CRR Officer uses a departmental P-Card (purchasing card) for approved expenditures. The P-Card reconciliation process must be completed regularly:</p>
 <ol>
-<li>Make purchase — Ensure the expenditure is within budget and properly authorized</li>
-</ol>
-<ol>
-<li>Save receipt — Retain physical or digital receipt for every transaction</li>
-</ol>
-<ol>
-<li>Log expense — Record in the CRR Expenses SharePoint list with vendor, amount, account code, and description</li>
-</ol>
-<ol>
-<li>Reconcile in Emburse — Complete P-Card reconciliation through the Emburse system, assigning each transaction to the correct budget account</li>
-</ol>
-<ol>
-<li>Submit — Complete reconciliation before the monthly deadline</li>
+<li>Make purchase: Ensure the expenditure is within budget and properly authorized</li>
+<li>Save receipt: Retain physical or digital receipt for every transaction</li>
+<li>Log expense: Record in the CRR Expenses SharePoint list with vendor, amount, account code, and description</li>
+<li>Reconcile in Emburse: Complete P-Card reconciliation through the Emburse system, assigning each transaction to the correct budget account</li>
+<li>Submit: Complete reconciliation before the monthly deadline</li>
 </ol>
 <h3 id="sample-expense-log-entry">Sample Expense Log Entry</h3>
 <p>Weekly reports include budget expenses in a standardized format:</p>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Budget</th>
-<th>Amount</th>
-<th>Account</th>
-<th>Description</th>
-</tr></thead>
+<thead><tr><th>Budget</th><th>Amount</th><th>Account</th><th>Description</th></tr></thead>
 <tbody>
-<tr>
-<td>$20,000.00</td>
-<td>$351.44</td>
-<td>320100.7826</td>
-<td>Sled for PAT practice</td>
-</tr>
-<tr>
-<td></td>
-<td>$320.66</td>
-<td>320100.7826</td>
-<td>Weights for PAT practice</td>
-</tr>
+<tr><td>$20,000.00</td><td>$351.44</td><td>320100.7826</td><td>Sled for PAT practice</td></tr>
+<tr><td></td><td>$320.66</td><td>320100.7826</td><td>Weights for PAT practice</td></tr>
 </tbody></table></div>
 <h2 id="12-4-planned-expenditures">12.4 Planned Expenditures</h2>
 <p>Major recurring expenditure categories include:</p>
 <ul>
-<li>Medical exams (Concentra): \~$825 per candidate — Account 320100.7726</li>
-</ul>
-<ul>
-<li>Psychological evaluations (Pepper Psych): \~$215 per candidate — Account 320100.7726</li>
-</ul>
-<ul>
-<li>BSA Explorer program dues: $66.95 per instructor — Account 320100.6508</li>
-</ul>
-<ul>
-<li>PAT equipment (sled, weights, course materials): Variable — Account 320100.7826</li>
-</ul>
-<ul>
-<li>Recruiting event materials and booth fees: Variable — Account 320100.7826</li>
-</ul>
-<ul>
-<li>CRR printing, handouts, promotional items: Variable — Account 320200.7764</li>
-</ul>
-<ul>
-<li>Fire extinguisher training supplies: Variable — Account 320200.7764</li>
+<li>Medical exams (Concentra): ~$798 per candidate. Account 320100.7726</li>
+<li>Psychological evaluations (Pepper Psych): ~$230 per candidate. Account 320100.7726</li>
+<li>Explorer instructor dues: $66.95 per instructor. Code consistently (see 12.2)</li>
+<li>PAT equipment (sled, weights, course materials): Variable. Account 320100.7826</li>
+<li>Recruiting event materials and booth fees: Variable. Account 320100.7826</li>
+<li>CRR printing, handouts, promotional items: Variable. Account 320200.7764</li>
+<li>Fire extinguisher training supplies: Variable. Account 320200.7764</li>
 </ul>
 <p>[UPDATE ANNUALLY] Review budget with Lindsey (purchasing/budget) for FY allocations. Meet early in Q1 to confirm budget amounts and any changes.</p>
-      <div class="page-nav"><a href="ch11.html"><span class="nav-label">← Previous</span>Ch 11: Special Programs</a><a href="ch13.html" class="nav-next"><span class="nav-label">Next →</span>Ch 13: Weekly Reporting</a></div>
+<h2 id="12-5-checkbook-maintenance">12.5 Checkbook Maintenance</h2>
+<h3 id="12-5-1-requirement">12.5.1 Requirement</h3>
+<p><strong>The CRR Checkbook must be updated on a monthly basis.</strong> This is not optional and it is not a quarterly task. Two things happen when it slips: the officer approves purchases against a balance that is weeks out of date, and the quarterly Program Appraisal budget table gets rebuilt from scratch under deadline instead of read off a current ledger.</p>
+<p>The checkbook of record lives on the DFD Public Education page of the HUB, one workbook per fiscal year: <a href="https://codenton.sharepoint.com/sites/DentonFire/SitePages/DFD-Public-Education.aspx">codenton.sharepoint.com/sites/DentonFire/SitePages/DFD-Public-Education.aspx</a>. Open it from the Checkbook tile on that page and save back to the same file. A local copy that only one person can see defeats the purpose. The FY 25-26 checkbook is Community-Risk-Reduction-Checkbook-FY25-26.xlsx.</p>
+<h3 id="12-5-2-data-sources">12.5.2 Data Sources</h3>
+<p>Two systems feed the checkbook, and they do not agree with each other.</p>
+<p><strong>JD Edwards, via the Power BI budget report.</strong> This is the book of record. It shows what actually posted to each account, including purchase-order payments and journal entries that never touch a P-Card. Filter by object code and subledger 2574121 (Recruitment).</p>
+<p>Power BI budget report: <a href="https://app.powerbigov.us/groups/me/reports/bc069006-fa9f-4b6c-a8c6-78917d3f224e/ReportSection?ctid=8444bd2b-ab3a-4d6b-bac0-a96fe62e9d2a">City of Denton budget report</a> (City login required).</p>
+<p><strong>Certify/Emburse Expense Detail Review.</strong> P-Card charges only, but it carries the Reason text that describes what each purchase was for. Use it to populate descriptions, not to determine totals.</p>
+<p>The August 2026 reconciliation compared the two side by side for the first time and found them $1,799.32 apart on a $15,401.44 base.</p>
+<p>The cause is structural and will recur every year. The Certify Expense Detail Review returns only the CRR Officer's own expense reports. Charges other employees make against these four accounts do not appear in it at all. In FY 25-26 four other employees charged $2,835.32 to the CRR accounts, 16.3% of all P-Card spend on them, including the $1,742.50 Civil Service exam venue at UNT Gateway Center, which was the largest single recruiting expense of the year. Certify alone will understate what has been spent, and the officer approving purchases against it will believe there is money that is already gone.</p>
+<h3 id="12-5-3-monthly-procedure">12.5.3 Monthly Procedure</h3>
+<p>Run this in the first week of the month, after the Emburse P-Card reconciliation deadline has passed.</p>
+<ol>
+<li>Open the checkbook from SharePoint.</li>
+<li>Pull JDE charges from the Power BI report for each of the four accounts, October 1 through current. Pull the full fiscal year every month, not just the new month, so that any re-coded transaction corrects itself.</li>
+<li>Post new lines to the matching account tab starting at the first empty row: date in column B, purchaser in C, vendor in D, description in E, amount in F. Leave column G alone; the running balance formula is already there through row 59.</li>
+<li>Pull the Certify Expense Detail Review for the same range and use the Reason field to fill in descriptions.</li>
+<li>Log any purchase order that has been issued but has not posted to the GL in the COMMITTED block at row 62 of the affected tab, with the requisition number in column C. Clear the committed line only when the charge appears in the GL, and enter it in the register at that point. Do not let it sit in both places.</li>
+<li>Read the Summary tab. Approve future purchases against the Available column, not Remaining.</li>
+<li>Save back to the SharePoint copy.</li>
+</ol>
+<h3 id="12-5-4-watch-items">12.5.4 Watch Items</h3>
+<p><strong>October accrual reversals.</strong> Every October the prior September P-Card batch posts twice, once as a JF feed from Certify and once as a JE reversal of the prior year's accrual, both on the same date. In FY 25-26 that was 17 line pairs worth $2,259.09 on documents 910178 and 910249. Match each JE to its JF twin on account, vendor, and amount, and exclude both. They belong to the prior fiscal year.</p>
+<p><strong>Journal entries that are not P-Card feeds.</strong> Any document type other than JF is</p>
+<p>somebody moving money. FY 25-26 had a $225.00 EXPENSE RECLASS out of 320200.7764 to</p>
+<p>830004.7908 on 02/19/2026 that pulled the IAFC conference registration back out of</p>
+<p>Pub Education.</p>
+<p><strong>Subledger coding.</strong> A charge that posts to the right object code without subledger 2574121 will not appear in a subledger-filtered query and will not roll up to recruitment-level reporting. FY 25-26 had two: a $193.00 Facebook charge on 12/20/2025 and a $618.00 Home Depot charge on 06/03/2026.</p>
+<p><strong>Third-party charges.</strong> Check the Emp ID on every GL line. The checkbook register carries the employee ID in the Purchaser column for anyone other than the CRR Officer, so an unfamiliar ID is visible at a glance. Follow up the month a third-party charge posts. These are real commitments against the account and they are invisible in Certify.</p>
+<p>The FY 25-26 variance decomposes with nothing left over: $2,835.32 charged by other employees, less $811.00 of the officer's own charges missing the subledger, less the $225.00 conference reclass, equals the $1,799.32 gap.</p>
+<h3 id="12-5-5-quarterly-and-year-end">12.5.5 Quarterly and Year-End</h3>
+<p>At each quarter end, the checkbook Summary tab is the source for the Program Appraisal budget table (see Chapter 14, Inputs/Resources). If the checkbook has been maintained monthly, that table is a copy-paste rather than a rebuild.</p>
+<p>The fiscal year closes September 30 and unspent allocation does not carry over. Work backward from September 30, not forward from today, because the binding constraint is procurement lead time rather than the calendar. By the first week of September the practical window has closed for anything requiring three quotes.</p>
+<h3 id="12-5-6-fy-26-27-carry-forward-notes">12.5.6 FY 26-27 Carry-Forward Notes</h3>
+<ul>
+<li>Raise two items with Lindsey in the FY 26-27 budget conversation. 7726 is allocated $4,650 against a documented need of $16,500 in physicals and $4,300 in psychological evaluations. 6508 reached 97% by August in FY 25-26.</li>
+<li>Food and supplies move from 7764 to new object code 6307 in FY 26-27. Add a 6307 tab to next year's checkbook.</li>
+<li>The October 2026 accrual pairs (September 2026 P-Card batch) belong to FY 25-26. Exclude both halves of each pair from the FY 26-27 register.</li>
+</ul>
+      <div class="page-nav"><a href="ch11.html"><span class="nav-label">&larr; Previous</span>Ch 11: Special Programs</a><a href="ch13.html" class="nav-next"><span class="nav-label">Next &rarr;</span>Ch 13: Weekly Reporting</a></div>
     </div>
     <footer class="site-footer">
-      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Denton Fire Department | CRR Officer Operations Manual v0.3 | October 2026<br>
       Prepared by Captain Hunter Lott, Community Risk Reduction Officer
     </footer>
   </main>
 
   <script src="assets/nav.js"></script>
+  <script src="assets/search-index.js" defer></script>
+  <script src="assets/search.js" defer></script>
 </body>
 </html>

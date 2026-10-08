@@ -3,47 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home — DFD CRR Officer Operations Manual</title>
+  <title>Home | DFD CRR Officer Operations Manual</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
   <header class="site-header">
-    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
     <a href="index.html" class="header-brand">
       <span class="header-badge">DFD</span>
       <span class="header-title">CRR Officer Operations Manual</span>
     </a>
-    <span class="header-subtitle">v0.2 — March 2026</span>
+    <span class="header-subtitle">v0.3 | October 2026</span>
+    <div class="hs" role="search">
+      <button class="hs-open" type="button" aria-label="Search the manual">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="hs-field">
+        <svg class="hs-icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input class="hs-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search the manual"
+               role="combobox" aria-expanded="false" aria-controls="hs-list" aria-autocomplete="list" aria-label="Search the manual">
+        <kbd class="hs-key">/</kbd>
+      </div>
+      <div class="hs-panel" id="hs-panel" hidden>
+        <ul class="hs-list" id="hs-list" role="listbox"></ul>
+        <div class="hs-foot"></div>
+      </div>
+    </div>
   </header>
 
   <nav class="sidebar">
     <a href="index.html" class="nav-link active">Home</a>
+    <a href="search.html" class="nav-link">Search</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART I: FOUNDATION</div></div>
     <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
     <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
     <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART II: CRR OPERATIONS</div></div>
     <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
     <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
     <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
     <a href="ch07.html" class="nav-link">Ch 7: CRR Tech Tools</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART III: RECRUITMENT &amp; HIRING</div></div>
     <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
     <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
     <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
     <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV: ADMINISTRATION</div></div>
     <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
     <a href="ch13.html" class="nav-link">Ch 13: Weekly Reporting</a>
     <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
-    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation &amp; Pension</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART V: TECHNOLOGY</div></div>
     <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
     <a href="ch17.html" class="nav-link">Ch 17: System Admin</a>
     <div class="nav-divider"></div>
@@ -64,11 +80,11 @@
     <div class="content-wrapper">
       
 <div class="cover-hero">
-  <div class="cover-dept">Denton Fire Department — Support Services Division</div>
+  <div class="cover-dept">Denton Fire Department | Support Services Division</div>
   <h1>CRR Officer<br>Operations Manual</h1>
   <div class="cover-divider"></div>
   <div class="cover-subtitle">Position Pass-Down Guide &amp; Standard Operating Procedures</div>
-  <div class="cover-version">Version 0.2 &nbsp;|&nbsp; March 2026</div>
+  <div class="cover-version">Version 0.3 &nbsp;|&nbsp; October 2026</div>
   <div class="cover-notice">
     This document contains operational procedures and institutional knowledge for the
     CRR Officer position. Handle in accordance with department information security policies.
@@ -80,45 +96,29 @@
 <h3 id="document-organization">Document Organization</h3>
 <p>The manual is organized into the following parts:</p>
 <ul>
-<li>Part I: Foundation (Chapters 1-3) — Department overview, position scope, and key relationships</li>
-<li>Part II: Community Risk Reduction Operations (Chapters 4-7) — Public education, newsletters, CRR technology tools, and special programs</li>
-<li>Part III: Recruitment &amp; Hiring Operations (Chapters 8-11) — Civil Service exam process, candidate pipeline, PAT coordination, and hiring workflow</li>
-<li>Part IV: Administrative Operations (Chapters 12-15) — Budget management, reporting, accreditation, and pension board duties</li>
-<li>Part V: Technology &amp; Systems (Chapters 16-17) — All platforms, logins, and automation workflows</li>
-<li>Part VI: Appendices — Reference materials, templates, contact directory, vendor guide, annual calendars, and supplemental resources</li>
+<li>Part I: Foundation (Chapters 1-3): Department overview, position scope, and key relationships</li>
+<li>Part II: Community Risk Reduction Operations (Chapters 4-7): Public education, newsletters, CRR technology tools, and special programs</li>
+<li>Part III: Recruitment &amp; Hiring Operations (Chapters 8-11): Civil Service exam process, candidate pipeline, PAT coordination, and hiring workflow</li>
+<li>Part IV: Administrative Operations (Chapters 12-15): Budget management, reporting, accreditation, and pension board duties</li>
+<li>Part V: Technology &amp; Systems (Chapters 16-17): All platforms, logins, and automation workflows</li>
+<li>Part VI: Appendices: Reference materials, templates, contact directory, vendor guide, annual calendars, and supplemental resources</li>
 </ul>
 <p>Sections marked with [ACTION REQUIRED] indicate areas where the successor must take specific steps to assume responsibilities (e.g., obtaining system access, updating vendor contacts). Sections marked with [UPDATE ANNUALLY] should be reviewed and refreshed each fiscal year.</p>
 <h3 id="version-history">Version History</h3>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Version</th>
-<th>Date</th>
-<th>Author</th>
-<th>Notes</th>
-</tr></thead>
+<thead><tr><th>Version</th><th>Date</th><th>Author</th><th>Notes</th></tr></thead>
 <tbody>
-<tr>
-<td>0.1</td>
-<td>Feb 2026</td>
-<td>Hunter Lott</td>
-<td>Initial draft</td>
-</tr>
-<tr>
-<td>0.2</td>
-<td>Mar 2026</td>
-<td>Hunter Lott</td>
-<td>PAT update, Vendor Reference, Annual Calendars, GitHub Pages migration</td>
-</tr>
+<tr><td>0.1</td><td>Feb 2026</td><td>Hunter Lott</td><td>Initial draft</td></tr>
+<tr><td>0.2</td><td>Mar 2026</td><td>Hunter Lott</td><td>PAT update, Vendor Reference, Annual Calendars, GitHub Pages migration</td></tr>
+<tr><td>0.3</td><td>Oct 2026</td><td>Hunter Lott</td><td>manual.md committed as the single source and build_site.py rewritten to read it. Added 6.4 Ready to Serve content calendar, 12.5 Checkbook Maintenance, 12.2 FY 25-26 year-end status, 13.5 CRR Dashboard Slides, 9.8.1 Onboarding, 8.2 Standing Answers, and a rewritten 11.7 DFR/UAS. Frontline Report calendar replaces the three older calendars. Corrected certification, age, cost, and subscriber figures. PAT candidate names and the purge password removed from the public pages. Dash and formatting cleanup. Added full-text site search (header search box, Search page, in-page match highlighting).</td></tr>
 </tbody></table></div>
 <h2 id="table-of-contents">Table of Contents</h2>
-
 <h3>Part I: Foundation</h3>
 <ul>
   <li><a href="ch01.html">Chapter 1: Denton Fire Department Overview</a></li>
   <li><a href="ch02.html">Chapter 2: Position Overview</a></li>
   <li><a href="ch03.html">Chapter 3: Key Relationships and Partners</a></li>
 </ul>
-
 <h3>Part II: Community Risk Reduction Operations</h3>
 <ul>
   <li><a href="ch04.html">Chapter 4: CRR Strategy and Program Framework</a></li>
@@ -126,7 +126,6 @@
   <li><a href="ch06.html">Chapter 6: CRR Newsletters</a></li>
   <li><a href="ch07.html">Chapter 7: CRR Technology Tools</a></li>
 </ul>
-
 <h3>Part III: Recruitment &amp; Hiring Operations</h3>
 <ul>
   <li><a href="ch08.html">Chapter 8: Civil Service Framework</a></li>
@@ -134,7 +133,6 @@
   <li><a href="ch10.html">Chapter 10: Candidate Pipeline and Outreach</a></li>
   <li><a href="ch11.html">Chapter 11: Special Programs and Future Initiatives</a></li>
 </ul>
-
 <h3>Part IV: Administrative Operations</h3>
 <ul>
   <li><a href="ch12.html">Chapter 12: Budget and Financial Management</a></li>
@@ -142,13 +140,11 @@
   <li><a href="ch14.html">Chapter 14: Quarterly Program Appraisals</a></li>
   <li><a href="ch15.html">Chapter 15: Accreditation Support and Pension Board Duties</a></li>
 </ul>
-
 <h3>Part V: Technology &amp; Systems</h3>
 <ul>
   <li><a href="ch16.html">Chapter 16: Digital Platforms &amp; Infrastructure</a></li>
   <li><a href="ch17.html">Chapter 17: System Administration &amp; Succession Planning</a></li>
 </ul>
-
 <h3>Appendices</h3>
 <ul>
   <li><a href="app-a.html">Appendix A: Quick Reference Cards</a></li>
@@ -161,15 +157,16 @@
   <li><a href="app-h.html">Appendix H: CRR Annual Calendar</a></li>
   <li><a href="app-i.html">Appendix I: Recruiting Annual Calendar</a></li>
 </ul>
-
-      <div class="page-nav"><a href="ch01.html" class="nav-next"><span class="nav-label">Next →</span>Ch 1: DFD Overview</a></div>
+      <div class="page-nav"><a href="ch01.html" class="nav-next"><span class="nav-label">Next &rarr;</span>Ch 1: DFD Overview</a></div>
     </div>
     <footer class="site-footer">
-      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Denton Fire Department | CRR Officer Operations Manual v0.3 | October 2026<br>
       Prepared by Captain Hunter Lott, Community Risk Reduction Officer
     </footer>
   </main>
 
   <script src="assets/nav.js"></script>
+  <script src="assets/search-index.js" defer></script>
+  <script src="assets/search.js" defer></script>
 </body>
 </html>

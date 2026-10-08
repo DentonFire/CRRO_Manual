@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ch 11: Special Programs | DFD CRR Officer Operations Manual</title>
+  <title>Search | DFD CRR Officer Operations Manual</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -34,7 +34,7 @@
 
   <nav class="sidebar">
     <a href="index.html" class="nav-link">Home</a>
-    <a href="search.html" class="nav-link">Search</a>
+    <a href="search.html" class="nav-link active">Search</a>
     <div class="nav-divider"></div>
     <div class="nav-section"><div class="nav-section-label">PART I: FOUNDATION</div></div>
     <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
@@ -51,7 +51,7 @@
     <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
     <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
     <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
-    <a href="ch11.html" class="nav-link active">Ch 11: Special Programs</a>
+    <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
     <div class="nav-divider"></div>
     <div class="nav-section"><div class="nav-section-label">PART IV: ADMINISTRATION</div></div>
     <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
@@ -78,40 +78,30 @@
 
   <main class="main-content">
     <div class="content-wrapper">
-      <span class="chapter-number">Chapter 11</span>
-<h1>Special Programs and Future Initiatives</h1>
-<h2 id="11-1-citizens-fire-academy-cfa">11.1 Citizens Fire Academy (CFA)</h2>
-<p>The Citizens Fire Academy is a multi-week educational program for community members. It did not run in FY 25-26, and no FY 26-27 date is set; do not promise one. The CRR Officer coordinates curriculum development, guest speakers, facilities, and participant logistics.</p>
-<h2 id="11-2-explorer-post-1291">11.2 Explorer Post 1291</h2>
-<p>Fire Explorer Post 1291 serves youth ages 14 to 20 through Scouting America (formerly Scouting America) Exploring. Captain Kevin Tye is the post advisor. Instructor registration was renewed in Q1 FY 25-26 ($66.95 per instructor), and the 26/27 open house was held at Station 7 on August 24, 2026.</p>
-<ul>
-<li>Renewal requires at least five registered Explorers.</li>
-<li>Every adult instructor needs current registration and safety training.</li>
-<li>Route interested youth to joinexploring.org, then select Post 1291.</li>
-</ul>
-<h2 id="11-3-clown-program">11.3 Clown Program</h2>
-<p>Fire prevention clown program was inactive in Q1 FY 25-26. Requires identifying and training performers if the program resumes. This is a succession planning need.</p>
-<h2 id="11-4-fire-camp">11.4 Fire Camp</h2>
-<p>Annual youth fire camp program. Status: TBD for FY 25-26. Requires coordination for purchasing, staffing, meals, school permissions, and partner involvement.</p>
-<h2 id="11-5-smoke-detector-program">11.5 Smoke Detector Program</h2>
-<p>Community smoke detector installation program. In Q1 FY 25-26, 50 smoke detectors were installed in community residences. Track installations through ESO for quarterly reporting.</p>
-<h2 id="11-6-hoarding-awareness-campaign">11.6 Hoarding Awareness Campaign</h2>
-<p>Video-based community education campaign on hoarding dangers. Campaign launched January-February 2026 with MarComm video content production. Track engagement metrics through social media analytics.</p>
-<h2 id="11-7-dfr-uas-program">11.7 DFR/UAS Program</h2>
-<p>The CRR Officer serves as UAS Program Manager (FD side) for the Joint Public Safety UAS Team operated with Denton PD. On the PD side, DC Cose is UAS Program Director and Acting DC Briggs is UAS Program Manager.</p>
-<div class="table-wrapper"><table>
-<thead><tr><th>Item</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Authorization</td><td>BVLOS COA 91.113-2025-00535, effective August 20, 2025 through August 31, 2029. At or below 200 ft AGL, Class G airspace. DroneSense is the approved ADS-B UTM provider.</td></tr>
-<tr><td>FD pilots</td><td>6 certified, 4 pending (FAA Part 107)</td></tr>
-<tr><td>Station 9 kit</td><td>Joint DPD/DFD Matrice 4T kit. Inventory and new-pilot reference at dentonfire.github.io/station-9-uas-kit/. Daily checks are logged in Vector Solutions.</td></tr>
-<tr><td>DFR demonstration</td><td>30-day demonstration with Denton PD and Skydio, started late September 2026. Skydio Docks at Fire Station 3 and PD Headquarters; PD pilots fly from Dispatch.</td></tr>
-<tr><td>Open gap</td><td>Dock operators. The FD side has one confirmed operator. Resolve before any permanent DFR deployment.</td></tr>
-</tbody></table></div>
-<p>The CRR Officer also supports pilot training coordination and Part 107 tracking, DroneSense reporting, and monthly UAS training.</p>
-<h2 id="11-8-succession-planning-needs">11.8 Succession Planning Needs</h2>
-<p>Several programs require succession planning beyond the CRR Officer position. These are documented in Chapter 17 (System Administration &amp; Succession Planning).</p>
-      <div class="page-nav"><a href="ch10.html"><span class="nav-label">&larr; Previous</span>Ch 10: Candidate Pipeline</a><a href="ch12.html" class="nav-next"><span class="nav-label">Next &rarr;</span>Ch 12: Budget</a></div>
+      
+<span class="chapter-number">Search</span>
+<h1>Search the Manual</h1>
+<div class="sp-box">
+  <input id="sp-input" type="search" autocomplete="off" spellcheck="false"
+         placeholder="Try: PAT staffing, VerifEYE admissions, 7726, checkbook monthly" aria-label="Search the manual">
+</div>
+<div id="sp-facets" class="sp-facets" aria-label="Filter by part"></div>
+<div id="sp-status" class="sp-status" role="status" aria-live="polite"></div>
+<ol id="sp-results" class="sp-results"></ol>
+<details class="sp-tips">
+  <summary>Search tips</summary>
+  <ul>
+    <li><strong>Plain words</strong> find sections that mention all of them first: <code>practice pat weather</code></li>
+    <li><strong>Quotes</strong> match an exact phrase: <code>"conditional offer"</code></li>
+    <li><strong>Minus</strong> excludes a word: <code>budget -pat</code></li>
+    <li><strong>Filters</strong>: <code>ch:9</code>, <code>app:g</code>, or <code>part:recruitment</code></li>
+    <li>Acronyms and account numbers work both ways: <code>PHS</code> finds Personal History Statement, <code>7726</code> finds Physicals/Psych</li>
+    <li>Typos and partial words are forgiven: <code>verifye</code>, <code>reconcil</code></li>
+    <li>Press <kbd>/</kbd> or <kbd>Ctrl</kbd>+<kbd>K</kbd> on any page to search</li>
+  </ul>
+</details>
+
+      
     </div>
     <footer class="site-footer">
       Denton Fire Department | CRR Officer Operations Manual v0.3 | October 2026<br>

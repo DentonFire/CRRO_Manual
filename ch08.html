@@ -3,47 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ch 8: Civil Service — DFD CRR Officer Operations Manual</title>
+  <title>Ch 8: Civil Service | DFD CRR Officer Operations Manual</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
   <header class="site-header">
-    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
     <a href="index.html" class="header-brand">
       <span class="header-badge">DFD</span>
       <span class="header-title">CRR Officer Operations Manual</span>
     </a>
-    <span class="header-subtitle">v0.2 — March 2026</span>
+    <span class="header-subtitle">v0.3 | October 2026</span>
+    <div class="hs" role="search">
+      <button class="hs-open" type="button" aria-label="Search the manual">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="hs-field">
+        <svg class="hs-icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input class="hs-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search the manual"
+               role="combobox" aria-expanded="false" aria-controls="hs-list" aria-autocomplete="list" aria-label="Search the manual">
+        <kbd class="hs-key">/</kbd>
+      </div>
+      <div class="hs-panel" id="hs-panel" hidden>
+        <ul class="hs-list" id="hs-list" role="listbox"></ul>
+        <div class="hs-foot"></div>
+      </div>
+    </div>
   </header>
 
   <nav class="sidebar">
     <a href="index.html" class="nav-link">Home</a>
+    <a href="search.html" class="nav-link">Search</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART I: FOUNDATION</div></div>
     <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
     <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
     <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART II: CRR OPERATIONS</div></div>
     <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
     <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
     <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
     <a href="ch07.html" class="nav-link">Ch 7: CRR Tech Tools</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART III: RECRUITMENT &amp; HIRING</div></div>
     <a href="ch08.html" class="nav-link active">Ch 8: Civil Service</a>
     <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
     <a href="ch10.html" class="nav-link">Ch 10: Candidate Pipeline</a>
     <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV: ADMINISTRATION</div></div>
     <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
     <a href="ch13.html" class="nav-link">Ch 13: Weekly Reporting</a>
     <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
-    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation &amp; Pension</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART V: TECHNOLOGY</div></div>
     <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
     <a href="ch17.html" class="nav-link">Ch 17: System Admin</a>
     <div class="nav-divider"></div>
@@ -69,109 +85,62 @@
 <p>Key implications for the CRR Officer:</p>
 <ul>
 <li>The hiring process operates under Civil Service rules, not standard HR procedures</li>
-</ul>
-<ul>
 <li>NEOGOV hiring workflow is managed independently by the CRR Officer, without dedicated HR support</li>
-</ul>
-<ul>
 <li>Candidate communications, eligibility lists, and hiring decisions must comply with Chapter 143 requirements</li>
-</ul>
-<ul>
 <li>The Civil Service Commission provides oversight and must approve the Position Opportunity Announcement (POA)</li>
-</ul>
-<ul>
 <li>The Meet and Confer Agreement between DFD and the firefighter association may contain additional provisions affecting hiring</li>
 </ul>
 <h2 id="8-2-position-details">8.2 Position Details</h2>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Element</th>
-<th>Detail</th>
-</tr></thead>
+<thead><tr><th>Element</th><th>Detail</th></tr></thead>
 <tbody>
-<tr>
-<td>Position Title</td>
-<td>Firefighter</td>
-</tr>
-<tr>
-<td>Starting Salary</td>
-<td>$86,022 annually \+ certification pay</td>
-</tr>
-<tr>
-<td>Salary with Cert Pay</td>
-<td>Up to $101,337.60 (depending on certifications held)</td>
-</tr>
-<tr>
-<td>Minimum Age</td>
-<td>18 years old</td>
-</tr>
-<tr>
-<td>Driver&#x27;s License</td>
-<td>Valid Texas driver&#x27;s license required</td>
-</tr>
-<tr>
-<td>Education</td>
-<td>High school diploma or GED</td>
-</tr>
-<tr>
-<td>Certifications (Preferred)</td>
-<td>TCFP Structural Firefighter, EMT/Paramedic</td>
-</tr>
+<tr><td>Position Title</td><td>Firefighter</td></tr>
+<tr><td>Starting Salary</td><td>$86,022 annually + certification pay</td></tr>
+<tr><td>Salary with Cert Pay</td><td>Up to $101,337.60 (depending on certifications held)</td></tr>
+<tr><td>Age</td><td>18 up to, but not including, 36 (Texas Local Government Code Chapter 143). Never state there is no maximum age.</td></tr>
+<tr><td>Driver's License</td><td>Valid Texas driver's license required</td></tr>
+<tr><td>Education</td><td>High school diploma or GED</td></tr>
+<tr><td>Certifications (Required)</td><td>TCFP Firefighter plus Texas DSHS EMT-Basic or Paramedic, in hand before the conditional offer (usually early April). Candidates may register and test while still in school.</td></tr>
 </tbody></table></div>
+<h3 id="standing-answers-for-candidates">Standing Answers for Candidates</h3>
+<p>These are the answers of record for the recruiting inbox and every published piece:</p>
+<ol>
+<li><strong>Denton does not run its own recruit academy.</strong> Candidates arrive already certified.</li>
+<li><strong>Certifications are required, not preferred:</strong> TCFP Firefighter plus EMT-Basic or Paramedic, complete before the conditional offer.</li>
+<li><strong>Dual-role only.</strong> Every sworn position is firefighter first, EMT-Basic at minimum. Paramedics earn certification pay.</li>
+<li><strong>The paramedic exception.</strong> A fully certified paramedic who is hired has fire academy paid for by the department.</li>
+<li><strong>Ride-alongs are observation only.</strong> They do not satisfy EMT or paramedic clinical hours; refer students to their school's clinical coordinator.</li>
+</ol>
 <h2 id="8-3-preference-points">8.3 Preference Points</h2>
 <p>Under the DFD Civil Service rules and Meet and Confer Agreement, eligible candidates may receive preference points added to their raw exam score:</p>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Preference</th>
-<th>Points</th>
-<th>Verification</th>
-</tr></thead>
+<thead><tr><th>Preference</th><th>Points</th><th>Verification</th></tr></thead>
 <tbody>
-<tr>
-<td>Military Service</td>
-<td>\+5</td>
-<td>DD-214 (Member 4 copy)</td>
-</tr>
-<tr>
-<td>Denton Residency</td>
-<td>\+1</td>
-<td>Proof of Denton address (utility bill, lease, etc.)</td>
-</tr>
-<tr>
-<td>LaGrone Academy Graduate</td>
-<td>\+1</td>
-<td>LaGrone certificate of completion</td>
-</tr>
+<tr><td>Military Service</td><td>+5</td><td>DD-214 (Member 4 copy)</td></tr>
+<tr><td>Denton Residency</td><td>+1</td><td>Proof of Denton address (utility bill, lease, etc.)</td></tr>
+<tr><td>LaGrone Academy Graduate</td><td>+1</td><td>LaGrone certificate of completion</td></tr>
 </tbody></table></div>
 <p>Extra points are verified post-exam by the CRR Officer, added to raw scores, and the adjusted scores are used to generate the certified eligibility list. Send a reminder email about extra points documentation to all registered candidates before exam day.</p>
 <h2 id="8-4-tie-breaking-criteria">8.4 Tie-Breaking Criteria</h2>
 <p>When two or more candidates attain the same final score, ties are broken in the following order:</p>
 <ol>
 <li>Raw score (before preference points)</li>
-</ol>
-<ol>
 <li>TCFP Structural Firefighter certification</li>
-</ol>
-<ol>
 <li>EMT-Paramedic (EMT-P) certification or license</li>
-</ol>
-<ol>
 <li>EMT-Basic (EMT-B) certification</li>
-</ol>
-<ol>
-<li>Bachelor&#x27;s degree</li>
-</ol>
-<ol>
+<li>Bachelor's degree</li>
 <li>Earliest registration date</li>
 </ol>
-      <div class="page-nav"><a href="ch07.html"><span class="nav-label">← Previous</span>Ch 7: CRR Tech Tools</a><a href="ch09.html" class="nav-next"><span class="nav-label">Next →</span>Ch 9: Hiring Process</a></div>
+      <div class="page-nav"><a href="ch07.html"><span class="nav-label">&larr; Previous</span>Ch 7: CRR Tech Tools</a><a href="ch09.html" class="nav-next"><span class="nav-label">Next &rarr;</span>Ch 9: Hiring Process</a></div>
     </div>
     <footer class="site-footer">
-      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Denton Fire Department | CRR Officer Operations Manual v0.3 | October 2026<br>
       Prepared by Captain Hunter Lott, Community Risk Reduction Officer
     </footer>
   </main>
 
   <script src="assets/nav.js"></script>
+  <script src="assets/search-index.js" defer></script>
+  <script src="assets/search.js" defer></script>
 </body>
 </html>

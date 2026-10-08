@@ -3,47 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ch 10: Candidate Pipeline — DFD CRR Officer Operations Manual</title>
+  <title>Ch 10: Candidate Pipeline | DFD CRR Officer Operations Manual</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
   <header class="site-header">
-    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
     <a href="index.html" class="header-brand">
       <span class="header-badge">DFD</span>
       <span class="header-title">CRR Officer Operations Manual</span>
     </a>
-    <span class="header-subtitle">v0.2 — March 2026</span>
+    <span class="header-subtitle">v0.3 | October 2026</span>
+    <div class="hs" role="search">
+      <button class="hs-open" type="button" aria-label="Search the manual">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="hs-field">
+        <svg class="hs-icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input class="hs-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search the manual"
+               role="combobox" aria-expanded="false" aria-controls="hs-list" aria-autocomplete="list" aria-label="Search the manual">
+        <kbd class="hs-key">/</kbd>
+      </div>
+      <div class="hs-panel" id="hs-panel" hidden>
+        <ul class="hs-list" id="hs-list" role="listbox"></ul>
+        <div class="hs-foot"></div>
+      </div>
+    </div>
   </header>
 
   <nav class="sidebar">
     <a href="index.html" class="nav-link">Home</a>
+    <a href="search.html" class="nav-link">Search</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART I — FOUNDATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART I: FOUNDATION</div></div>
     <a href="ch01.html" class="nav-link">Ch 1: DFD Overview</a>
     <a href="ch02.html" class="nav-link">Ch 2: Position Overview</a>
     <a href="ch03.html" class="nav-link">Ch 3: Key Relationships</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART II — CRR OPERATIONS</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART II: CRR OPERATIONS</div></div>
     <a href="ch04.html" class="nav-link">Ch 4: CRR Strategy</a>
     <a href="ch05.html" class="nav-link">Ch 5: Public Education</a>
     <a href="ch06.html" class="nav-link">Ch 6: Newsletters</a>
     <a href="ch07.html" class="nav-link">Ch 7: CRR Tech Tools</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART III — RECRUITMENT & HIRING</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART III: RECRUITMENT &amp; HIRING</div></div>
     <a href="ch08.html" class="nav-link">Ch 8: Civil Service</a>
     <a href="ch09.html" class="nav-link">Ch 9: Hiring Process</a>
     <a href="ch10.html" class="nav-link active">Ch 10: Candidate Pipeline</a>
     <a href="ch11.html" class="nav-link">Ch 11: Special Programs</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART IV — ADMINISTRATION</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART IV: ADMINISTRATION</div></div>
     <a href="ch12.html" class="nav-link">Ch 12: Budget</a>
     <a href="ch13.html" class="nav-link">Ch 13: Weekly Reporting</a>
     <a href="ch14.html" class="nav-link">Ch 14: Quarterly Appraisals</a>
-    <a href="ch15.html" class="nav-link">Ch 15: Accreditation & Pension</a>
+    <a href="ch15.html" class="nav-link">Ch 15: Accreditation &amp; Pension</a>
     <div class="nav-divider"></div>
-    <div class="nav-section"><div class="nav-section-label">PART V — TECHNOLOGY</div></div>
+    <div class="nav-section"><div class="nav-section-label">PART V: TECHNOLOGY</div></div>
     <a href="ch16.html" class="nav-link">Ch 16: Digital Platforms</a>
     <a href="ch17.html" class="nav-link">Ch 17: System Admin</a>
     <div class="nav-divider"></div>
@@ -71,88 +87,60 @@
 <p>NEOGOV is the primary applicant tracking system used for the DFD hiring workflow. The CRR Officer manages all aspects of the NEOGOV platform including:</p>
 <ul>
 <li>Job posting creation and management</li>
-</ul>
-<ul>
 <li>Candidate application tracking and PHS processing</li>
-</ul>
-<ul>
 <li>Hiring workflow stage management (PHS, Polygraph, PAT, Interviews, Conditional Offer, Appointment, DQ Letter)</li>
-</ul>
-<ul>
 <li>Status updates, candidate communications, and bulk email notifications</li>
-</ul>
-<ul>
 <li>Reporting and analytics</li>
 </ul>
 <p>[ACTION REQUIRED] New CRR Officer must obtain NEOGOV administrator access credentials.</p>
 <h3 id="handshake-unt">Handshake (UNT)</h3>
 <p>The CRR Officer maintains a Handshake account through the University of North Texas for posting positions and events to UNT students and alumni. Handshake was finalized in Q1 FY 25-26.</p>
-<h3 id="recruiting-newsletter-ready-to-serve">Recruiting Newsletter (&quot;Ready to Serve&quot;)</h3>
-<p>The recruiting newsletter reaches 3,960 subscribers via Constant Contact. It is the primary channel for communicating exam announcements, process updates, PAT prep tips, and general recruiting content. See Chapter 6 for newsletter production details.</p>
+<h3 id="recruiting-newsletter-ready-to-serve">Recruiting Newsletter ("Ready to Serve")</h3>
+<p>Ready to Serve reaches 5,186 subscribers via Constant Contact (September 30, 2026) and publishes monthly on the 6.4 content calendar. It is the primary channel for communicating exam announcements, process updates, PAT prep tips, and general recruiting content. See Chapter 6 for newsletter production details.</p>
 <h3 id="social-media">Social Media</h3>
-<p>Recruiting content is posted on DFD social media channels including Instagram (@dentonfiredepartment, \~2,920 followers) and Twitter (@DentonFireDept). Content includes exam announcements, &quot;day in the life&quot; features, career Q\&amp;A sessions (Spaces events), and event promotions. Coordinate with MarComm for brand consistency.</p>
+<p>Recruiting content is posted on DFD social media channels including Facebook (City of Denton Fire Department), Instagram (@dentonfiredepartment), and X (@DentonFireDept). Content includes exam announcements, "day in the life" features, career Q&amp;A sessions (Spaces events), and event promotions. Coordinate with MarComm for brand consistency.</p>
 <h3 id="monthly-webinars-social-media-spaces">Monthly Webinars &amp; Social Media Spaces</h3>
-<p>The CRR Officer hosts monthly career Q\&amp;A webinars and social media Spaces events to engage prospective candidates.</p>
+<p>The CRR Officer hosts monthly career Q&amp;A webinars and social media Spaces events to engage prospective candidates.</p>
 <h2 id="10-3-in-person-recruiting-events">10.3 In-Person Recruiting Events</h2>
 <h3 id="university-partnerships">University Partnerships</h3>
 <div class="table-wrapper"><table>
-<thead><tr>
-<th>Partner</th>
-<th>Activities</th>
-<th>Key Programs</th>
-</tr></thead>
+<thead><tr><th>Partner</th><th>Activities</th><th>Key Programs</th></tr></thead>
 <tbody>
-<tr>
-<td>UNT</td>
-<td>Career fairs, campus presentations, Handshake postings</td>
-<td>ELEVATE Athlete recruiting, general career services</td>
-</tr>
-<tr>
-<td>TWU</td>
-<td>Career fairs, recruitment events</td>
-<td>General career services</td>
-</tr>
+<tr><td>UNT</td><td>Career fairs, campus presentations, Handshake postings</td><td>ELEVATE Athlete recruiting, general career services</td></tr>
+<tr><td>TWU</td><td>Career fairs, recruitment events</td><td>General career services</td></tr>
 </tbody></table></div>
 <h3 id="fire-academy-visits">Fire Academy Visits</h3>
-<p>Quarterly visits to fire academies during active recruiting cycles. Target academies include LaGrone Advanced Technology Center (whose graduates receive \+1 preference point), North Central Texas College (NCTC), and Weatherford College.</p>
+<p>Quarterly visits to fire academies during active recruiting cycles. Target academies include LaGrone Advanced Technology Center (whose graduates receive +1 preference point), North Central Texas College (NCTC), and Weatherford College.</p>
 <h3 id="high-school-and-middle-school-events">High School and Middle School Events</h3>
 <p>Career day presentations at local schools including Guyer High School, Calhoun Middle School, and Strickland Middle School.</p>
 <h3 id="special-recruiting-events">Special Recruiting Events</h3>
 <ul>
-<li>UNT ELEVATE Athlete Recruiting \-- Targeted outreach to student athletes</li>
-</ul>
-<ul>
-<li>Diverse career fairs \-- Events targeting underrepresented demographics</li>
-</ul>
-<ul>
-<li>Community career events \-- Job fairs and community gatherings</li>
+<li>UNT ELEVATE Athlete Recruiting -- Targeted outreach to student athletes</li>
+<li>Diverse career fairs -- Events targeting underrepresented demographics</li>
+<li>Community career events -- Job fairs and community gatherings</li>
 </ul>
 <h2 id="10-4-diversity-recruitment">10.4 Diversity Recruitment</h2>
-<p><strong>Budget:</strong> 320100.7826 (Diversity) \-- $20,000 annual</p>
+<p><strong>Budget:</strong> 320100.7826 (Diversity) -- $20,000 annual</p>
 <p><strong>Goal:</strong> Workforce reflects community demographics</p>
 <p>The demographics report is presented to the Civil Service Commission after each exam. Diversity-focused expenditures are charged to the Diversity budget account.</p>
 <h2 id="10-5-ride-along-program">10.5 Ride-Along Program</h2>
 <p>The DFD Ride-Along Program provides prospective candidates with firsthand experience of fire department operations. The CRR Officer created a new Ride-Along policy in Q1 FY 25-26 requiring HIPAA training completion prior to participation.</p>
 <ul>
 <li>HIPAA training required before ride-along participation</li>
-</ul>
-<ul>
 <li>Candidates complete an application and waiver</li>
-</ul>
-<ul>
 <li>Coordinate ride-along scheduling with station crews</li>
-</ul>
-<ul>
 <li>Track participation and candidate feedback</li>
 </ul>
-      <div class="page-nav"><a href="ch09.html"><span class="nav-label">← Previous</span>Ch 9: Hiring Process</a><a href="ch11.html" class="nav-next"><span class="nav-label">Next →</span>Ch 11: Special Programs</a></div>
+      <div class="page-nav"><a href="ch09.html"><span class="nav-label">&larr; Previous</span>Ch 9: Hiring Process</a><a href="ch11.html" class="nav-next"><span class="nav-label">Next &rarr;</span>Ch 11: Special Programs</a></div>
     </div>
     <footer class="site-footer">
-      Denton Fire Department — CRR Officer Operations Manual v0.2 — March 2026<br>
+      Denton Fire Department | CRR Officer Operations Manual v0.3 | October 2026<br>
       Prepared by Captain Hunter Lott, Community Risk Reduction Officer
     </footer>
   </main>
 
   <script src="assets/nav.js"></script>
+  <script src="assets/search-index.js" defer></script>
+  <script src="assets/search.js" defer></script>
 </body>
 </html>
