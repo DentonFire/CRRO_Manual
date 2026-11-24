@@ -421,6 +421,7 @@ def page_template(title, content, current, prev_page, next_page):
   <script src="assets/nav.js"></script>
   <script src="assets/search-index.js" defer></script>
   <script src="assets/search.js" defer></script>
+  <script src="assets/share.js" defer></script>
 </body>
 </html>
 '''
