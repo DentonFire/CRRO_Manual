@@ -150,7 +150,7 @@ The position also carries additional duties as a Pension Board Trustee for the D
 - Generate annual Position Opportunity Announcement (POA) for Civil Service Commission approval
 - Coordinate all Civil Service exam logistics: test provider (FPSI), venue, materials, proctors
 - Manage the full NEOGOV hiring workflow from application through appointment
-- Verify candidate extra points (military service, residency, LaGrone Academy)
+- Verify candidate extra points (military service, Denton residency, Denton ISD high school Fire or EMT program)
 - Certify eligibility list and present demographics report to Civil Service Commission
 - Coordinate each hiring stage: Personal History Statement, polygraph (VerifEYE), PAT, panel interviews, psych exam, medical exam
 - Generate all correspondence: disqualification letters, conditional letters of employment, appointment letters
@@ -887,8 +887,8 @@ Under the DFD Civil Service rules and Meet and Confer Agreement, eligible candid
 | Preference | Points | Verification |
 |---|---|---|
 | Military Service | +5 | DD-214 (Member 4 copy) |
-| Denton Residency | +1 | Proof of Denton address (utility bill, lease, etc.) |
-| LaGrone Academy Graduate | +1 | LaGrone certificate of completion |
+| Denton Residency | +1 | Proof of residence within the City of Denton (utility bill, lease, etc.). Meet and Confer Art. 4, Sec. 3(a)(3) |
+| Denton ISD High School Fire or EMT Program (LaGrone Advanced Technology Complex) | +1 | Program completion certificate plus TCFP certification (Fire Program) or Texas DSHS certification (EMT Program). Meet and Confer Art. 4, Sec. 3(a)(2) |
 
 Candidates submit documentation through the Extra Points page (dentonfire.github.io/Extra-Points/) before the date of the exam. All three categories still count. Do not tell candidates to upload the DD-214 with registration. Extra points are verified post-exam by the CRR Officer, added to raw scores, and the adjusted scores are used to generate the certified eligibility list. Send a reminder email about extra points documentation, with the Extra Points page link, to all registered candidates before exam day.
 
@@ -952,7 +952,7 @@ The Civil Service Exam is a written knowledge examination administered annually.
 
 ### Post-Exam
 
-1. Verify all extra points documentation (DD-214, residency proof, LaGrone certificate)
+1. Verify all extra points documentation (complete, unaltered DD-214; residency proof; Denton ISD program certificate plus TCFP or DSHS certification)
 1. Add verified preference points to raw scores
 1. Certify eligibility list
 1. Prepare and deliver demographics report to Chief and Civil Service Commission
