@@ -26,8 +26,8 @@ from pathlib import Path
 SITE_DIR = Path(__file__).resolve().parent
 MD_PATH = SITE_DIR / 'manual.md'
 
-VERSION = '0.3'
-VERSION_DATE = 'October 2026'
+VERSION = '0.4'
+VERSION_DATE = 'November 2026'
 
 # (filename, sidebar label, sidebar section divider, title pattern)
 PAGES = [

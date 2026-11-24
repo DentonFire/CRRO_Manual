@@ -24,6 +24,7 @@ Sections marked with [ACTION REQUIRED] indicate areas where the successor must t
 | 0.1 | Feb 2026 | Hunter Lott | Initial draft |
 | 0.2 | Mar 2026 | Hunter Lott | PAT update, Vendor Reference, Annual Calendars, GitHub Pages migration |
 | 0.3 | Oct 2026 | Hunter Lott | manual.md committed as the single source and build_site.py rewritten to read it. Added 6.4 Ready to Serve content calendar, 12.5 Checkbook Maintenance, 12.2 FY 25-26 year-end status, 13.5 CRR Dashboard Slides, 9.8.1 Onboarding, 8.2 Standing Answers, and a rewritten 11.7 DFR/UAS. Frontline Report calendar replaces the three older calendars. Corrected certification, age, cost, and subscriber figures. PAT candidate names and the purge password removed from the public pages. Dash and formatting cleanup. Added full-text site search (header search box, Search page, in-page match highlighting). |
+| 0.4 | Nov 2026 | Hunter Lott | Added 9.1.1 Exam Registration Form and Public Page Updates (registration moved from NEOGOV to a yearly Smartsheet form; Careers page and FAQ updated twice a year) and 9.7.1 Conditional Offer Procedure. Rewrote 10.5 Ride-Along Program from Policy 331. Expanded 8.2 Standing Answers (no-cert path, lateral entry, volunteers, patches, event form, job posting) and corrected salary. Extra points now submitted through the Extra Points page. Added the public Answers site (10.2, 7.1, 16.2, B.1) and the Public Event Request Form rule (5.2). Explorer reply and age/residency note (11.2). |
 
 # **Chapter 1: Denton Fire Department Overview**
 
@@ -388,6 +389,7 @@ All public education events are tracked in the ESO system under standardized cat
 The following workflow outlines the standard process for coordinating and documenting a public education event:
 
 1. Receive request: Email, phone, or internal referral requesting DFD participation
+1. Route to the form: Every request to attend, present, visit, or bring a truck (career days, career fairs, school visits, community and senior groups, station tours) gets the Public Event Request Form link (https://www.cityofdenton.com/1055/Public-Event-Request-Form) and a request to submit one "if you haven't already." This applies even when accepting by email or filling out the host's own participation form. Before replying, check the DFD Public Event Request Form Smartsheet for an existing request from that host. A request submitted by a third party (for example, an air medical company asking for landing zone help at a school career day) does not count as the host's request.
 1. Evaluate and schedule: Assess alignment with CRR goals, check calendar availability, coordinate with Operations if on-duty crew support needed
 1. Prepare materials: Gather appropriate handouts, display materials, equipment. For fire truck presentations, coordinate with assigned company.
 1. Execute event: Attend and deliver educational content. Capture attendance count and photos if applicable.
@@ -513,7 +515,7 @@ Each month's newsletter is supported by four weekly social media posts across Fa
 | July | Surviving Your Rookie Year | Probation tips, earning trust, mentorship, learning |
 | August | Flex Month | Diversity, veterans, second careers, or other topics as needed |
 | September | Exercise and Diet | Physical prep, nutrition, training plans, mental readiness |
-| October | Registration Opens | NEOGOV instructions, application checklist, deadlines |
+| October | Registration Opens | Smartsheet registration link, application checklist, deadline, registered candidates only |
 | November | PAT Prep | Event breakdown, training program, pacing, gear weight |
 | December | Interviews | Oral board prep, STAR method, Chief's interview, professionalism |
 
@@ -632,7 +634,7 @@ The following tables provide ready-to-use social media posts for each week of ea
 
 | Week | Facebook | LinkedIn | X |
 |---|---|---|---|
-| 1 | Registration is NOW OPEN for the January Civil Service Exam. Go to NEOGOV, find Denton Fire Department, and complete your application. The deadline is firm. Don't wait. | Denton Fire Department's Civil Service Exam registration is now open. Visit NEOGOV to submit your application. This is step one of the hiring process. The deadline will not be extended. | REGISTRATION IS OPEN. Denton Fire Civil Service Exam. NEOGOV. Apply now. Deadline is firm. |
+| 1 | Registration is NOW OPEN for the January Civil Service Exam. Use the registration link on our Careers page. Only registered candidates can take the exam, and the deadline is firm. Don't wait. | Denton Fire Department's Civil Service Exam registration is now open. Register through the link on the City's Fire Department Careers page. Only registered candidates may test, and the deadline will not be extended. | REGISTRATION IS OPEN. Denton Fire Civil Service Exam. Link on our Careers page. Only registered candidates can test. |
 | 2 | Have you registered yet? The Civil Service Exam application requires basic information: contact details, education, work history. Complete it accurately. Incomplete applications are not accepted. | Civil Service Exam applications must be complete and accurate. Required information: contact details, education history, employment history. Incomplete submissions will not be processed. | Registered yet? Application requires: contact info, education, work history. Complete it accurately. Don't miss details. |
 | 3 | Reminder: the registration deadline is approaching. If you're considering a career in fire service, this is your moment. Don't let the deadline pass and wait another year. Register today. | Registration deadline approaching for Denton Fire's Civil Service Exam. Candidates who miss this window will wait until next year's cycle. Register now to secure your opportunity. | Registration deadline coming. Miss it and you wait a year. Register today. This is your moment. |
 | 4 | Last call: registration closes soon. Once you're registered, start studying. We'll send exam prep information to all registered candidates. Your preparation starts now. | Final reminder: Civil Service Exam registration closes soon. Registered candidates will receive study resources and exam logistics. The preparation phase begins immediately after registration. | LAST CALL. Registration closes soon. Register. Then start studying. Your preparation starts now. |
@@ -721,7 +723,8 @@ The CRR Officer developed and maintains a suite of web-based operational tools, 
 | After the Fire | Recovery guide for fire victims: housing, utilities, documents, financial, mental health | dentonfire.github.io/After-the-Fire/ |
 | Frontline Report Calendar | 12-month CRR newsletter and social calendar | dentonfire.github.io/Calendar/ |
 | Temp Check | Heat and temperature safety reference | dentonfire.github.io/Temp-Check/ |
-| Extra Points | Civil Service preference point submission | dentonfire.github.io/Extra-Points/ |
+| Extra Points | Civil Service preference point submission (military, Denton residency, LaGrone). Builds the submission email; works with Gmail, Outlook.com, a mail app, or copy and paste. | dentonfire.github.io/Extra-Points/ |
+| Recruiting and Community Answers | Public FAQ for the recruiting and CRR inbox; linked in the out-of-office auto-reply (see 10.2) | dentonfire.github.io/Answers/ |
 | Station 9 UAS Kit | Matrice 4T kit inventory and new-pilot reference | dentonfire.github.io/station-9-uas-kit/ |
 
 **HUB Access:** codenton.sharepoint.com/sites/DentonFire/SitePages/CRR_Resources.aspx
@@ -852,8 +855,9 @@ Key implications for the CRR Officer:
 | Element | Detail |
 |---|---|
 | Position Title | Firefighter |
-| Starting Salary | $86,022 annually + certification pay |
-| Salary with Cert Pay | Up to $101,337.60 (depending on certifications held) |
+| Starting Salary | $86,028.80 annually ($28.17/hour) + certification pay |
+| Base Salary Range | Step raises to $108,014.40 base, plus education, TCFP, and EMS incentive pay (Meet and Confer Art. 11). Paramedic Pay $100/month; Medic Assignment Pay $2/hour when assigned to ride a medic. |
+| Lateral Entry | None. Not offered at this time; every new firefighter enters through the entrance exam as a beginning firefighter. |
 | Age | 18 up to, but not including, 36 (Texas Local Government Code Chapter 143). Never state there is no maximum age. |
 | Driver's License | Valid Texas driver's license required |
 | Education | High school diploma or GED |
@@ -867,7 +871,14 @@ These are the answers of record for the recruiting inbox and every published pie
 2. **Certifications are required, not preferred:** TCFP Firefighter plus EMT-Basic or Paramedic, complete before the conditional offer.
 3. **Dual-role only.** Every sworn position is firefighter first, EMT-Basic at minimum. Paramedics earn certification pay.
 4. **The paramedic exception.** A fully certified paramedic who is hired has fire academy paid for by the department.
-5. **Ride-alongs are observation only.** They do not satisfy EMT or paramedic clinical hours; refer students to their school's clinical coordinator.
+5. **Ride-alongs are observation only.** They do not satisfy EMT or paramedic clinical hours; refer students to their school's clinical coordinator. When someone does not qualify, list the approved avenues from Policy 331 (see 10.5) instead of only declining.
+6. **No certifications yet.** A registered candidate without certifications can take the exam and go through every step, including the PAT, background, and interviews. They cannot receive a conditional offer until eligible for hire. The list lasts a year, and some years DFD hires in the spring and again in the fall, so candidates can finish certifications while on the list. Refer them to the Training Division; candidates have finished fire and EMT in under three months.
+7. **No lateral transfers, no volunteers, no internships, no patches.** Say so plainly, then give the next step: the entrance exam, Explorer Post 1291, or the Citizens Fire Academy.
+8. **No separate job posting.** Exam registration is the application. Out-of-cycle inquiries go to the recruit list, https://www.readytoserve.io/denton-fire.
+9. **Event and visit requests** always get the Public Event Request Form link (see 5.2).
+10. **Paramedic school after hire.** Whether the department pays for or assists with paramedic school is not confirmed in this manual. Do not promise it until confirmed.
+
+The full set of standing answers, routing, and current-cycle links is kept in the Recruiting Inbox Reply Rules (DFD Operations Hub project) and published for the public at dentonfire.github.io/Answers/.
 
 ## 8.3 Preference Points
 
@@ -879,7 +890,9 @@ Under the DFD Civil Service rules and Meet and Confer Agreement, eligible candid
 | Denton Residency | +1 | Proof of Denton address (utility bill, lease, etc.) |
 | LaGrone Academy Graduate | +1 | LaGrone certificate of completion |
 
-Extra points are verified post-exam by the CRR Officer, added to raw scores, and the adjusted scores are used to generate the certified eligibility list. Send a reminder email about extra points documentation to all registered candidates before exam day.
+Candidates submit documentation through the Extra Points page (dentonfire.github.io/Extra-Points/) before the date of the exam. All three categories still count. Do not tell candidates to upload the DD-214 with registration. Extra points are verified post-exam by the CRR Officer, added to raw scores, and the adjusted scores are used to generate the certified eligibility list. Send a reminder email about extra points documentation, with the Extra Points page link, to all registered candidates before exam day.
+
+[UPDATE ANNUALLY] The FY 26-27 POA lists only military points and says to upload the DD-214 with registration. Correct the POA wording for the next cycle: all three categories, submitted through the Extra Points page before the date of the exam.
 
 ## 8.4 Tie-Breaking Criteria
 
@@ -920,7 +933,7 @@ The Civil Service Exam is a written knowledge examination administered annually.
 1. Generate the Position Opportunity Announcement (POA) and present to Civil Service Commission for approval
 1. Secure venue (University Gateway Center)
 1. Order test booklets from FPSI
-1. Set up NEOGOV for candidate registration
+1. Request the new Smartsheet registration form and spreadsheet from the DFD data analyst, then send the opening wording to the web team (see 9.1.1)
 1. Distribute exam announcements via recruiting newsletter, Handshake, social media
 1. Send extra points reminder email to all registered candidates
 1. Hire OT proctor coverage for exam day
@@ -944,6 +957,56 @@ The Civil Service Exam is a written knowledge examination administered annually.
 1. Certify eligibility list
 1. Prepare and deliver demographics report to Chief and Civil Service Commission
 1. Return all test booklets to FPSI
+1. Confirm the Careers page and FAQ show the closed-registration wording (see 9.1.1)
+
+### 9.1.1 Exam Registration Form and Public Page Updates
+
+[UPDATE ANNUALLY]
+
+Candidates register for the entrance exam on a Smartsheet form, not in NEOGOV. The form is the only way to register, and only candidates who register before the deadline are permitted to take the exam. The link to the form appears on the City's Fire Department Careers page and in the Careers FAQ.
+
+FY 26-27 reference: the form is https://app.smartsheet.com/b/form/2534a11831a24dde8b8e3806be4a9426, the exam is Saturday, January 9, 2027, and the Notice of Civil Service Examination (POA) sets the deadline at December 28, 2026.
+
+Two public pages must be updated **twice every year**: once when registration opens and once when it closes.
+
+| Page | URL |
+|---|---|
+| Fire Department Careers | https://www.cityofdenton.com/582/Fire-Department-Careers |
+| Careers FAQ, "When is the next civil service test?" | https://www.cityofdenton.com/Faq.aspx?TID=54 |
+
+Changes to both pages go through the City web team. Send the exact wording; do not ask them to write it.
+
+**When registration opens (October)**
+
+1. **Request a new registration form.** Ask Colton Smith, Business Information Analyst (or whoever is the current DFD data analyst), to build a new Smartsheet form and a new spreadsheet for the new exam year. Every exam year gets its own form and sheet. Do not reuse the prior year's form, so registrations from different cycles never mix.
+2. **Match the deadline.** The form's close date and time must match the POA registration deadline exactly. In FY 26-27 they did not match: the POA said December 28 and the form said December 30 at 5:00 p.m.
+3. **Check the notice link.** The form links to the POA in the City Document Center. That document is replaced each year, so open the link and confirm it shows the new exam year.
+4. **Send the opening wording to the web team** (template below) for the Careers page and the FAQ answer.
+5. **Update everything else that carries the link:** the Ready to Serve October edition, the recruit list page (https://www.readytoserve.io/denton-fire), the Recruiting Inbox Reply Rules, the Recruiting and Community Answers site (dentonfire.github.io/Answers/), and the out-of-office auto-reply.
+
+> [!info] **Opening wording for the Careers page (replaces the registration paragraph)**
+> Next Civil Service Exam: [Day], [Month Date, Year], at 10:00 a.m., [Venue, Address]. Registration closes [Month Date, Year]. Only registered candidates will be permitted to take the exam. Register here: [new Smartsheet form link]
+>
+> Not ready to test this year? Join our recruit list: https://www.readytoserve.io/denton-fire
+
+> [!info] **Opening wording for the FAQ answer**
+> The next Fire Civil Service Exam is [Day], [Month Date, Year], at 10:00 a.m. at [Venue, Address]. No one is admitted after 10:00 a.m. The exam is free.
+>
+> Only candidates who register by [deadline] will be permitted to take the exam. Register here: [new Smartsheet form link]
+>
+> To learn more and be added to our recruit list for future exams, visit https://www.readytoserve.io/denton-fire
+
+**When registration closes (the day after the deadline)**
+
+1. **Send the closing wording to the web team** (template below). Remove the form link from both pages so no one registers late.
+2. **Export the registration sheet** from Smartsheet. It becomes the exam-day roster and the extra points checklist, saved as `[Year]_DFD_Civil_Service_Test_Registration_FINAL.xlsx` (see 9.5.7 for the FY 25-26 file).
+3. **Update the same secondary places** listed in step 5 above: answers site, auto-reply, reply rules.
+
+> [!info] **Closing wording for the Careers page**
+> Registration for the [Month Date, Year] Civil Service Exam is closed. Registration for the next exam opens in October. To hear when it opens, join our recruit list: https://www.readytoserve.io/denton-fire
+
+> [!info] **Closing wording for the FAQ answer**
+> Registration for the [Month Date, Year] exam is closed, and only registered candidates may test. The next exam is expected in January [Year + 1], with registration opening in October [Year]. To learn more and be notified when registration opens, join our recruit list: https://www.readytoserve.io/denton-fire
 
 ## 9.2 Step 2: Personal History Statement (PHS)
 
@@ -1330,6 +1393,54 @@ The CRR Officer generates conditional letters, coordinates medical and psych exa
 
 Candidates who fail the psychological assessment have the right to appeal under TLGC Chapter 143.022(c) by requesting a board of three psychologists (candidate pays). The board's decision is final.
 
+### 9.7.1 How to Issue Conditional Offers
+
+Each selected candidate gets two things on the same day:
+
+1. **A NEOGOV notice with the Conditional Letter of Employment PDF attached.** The notice is the cover email. The PDF is the actual offer.
+1. **A group email from Outlook to the medical and psych vendors**, with the candidates copied, asking the vendors to contact each candidate and schedule.
+
+**Step 1: Build the individual letters (one PDF per candidate)**
+
+- City of Denton / Denton Fire Department letterhead, 332 E. Hickory St.
+- Signed by the Fire Chief. Get the Chief's approval of the hire list before letters go out.
+- File name format: `Last__First.pdf`.
+- Fields that change per cycle: letter date, candidate full name and mailing address (from the NEOGOV application, Contact Information), salutation, start date and time, hourly rate, annualized rate.
+- Standard conditions in the letter: drug screen, medical physical, psychological evaluation, and I-9 documentation, plus the at-will language and the CRR Officer's office line for questions.
+- [UPDATE ANNUALLY] May 2026 reference values: letters dated May 1, 2026; start Monday, June 8, 2026 at 8:00 a.m.; $28.17/hour, annualized at $86,028.80. Confirm the current rate with HR before each cycle.
+
+**Step 2: Move each candidate in NEOGOV and send the notice**
+
+Requisition: Fire Fighter- Recruit. Hire Workflow steps, in order: Referred, Review, PHS, Polygraph, PAT, Interview, Offered, Medical/Psych, Preboarding, Appointment Letter, Hired. Disqualification Letter and Voluntary Withdrawal are off-ramps.
+
+1. Candidates tab, filter to **Interview**, select the candidate.
+1. Move the candidate to **Medical/Psych**. In May 2026 the conditional offer notice was sent at this step; the Offered step was not used.
+1. Send the notice using the template **"Conditional Job Offer- Fire."** Notices go out from info@governmentjobs.com.
+1. Attach that candidate's PDF and only that candidate's PDF.
+1. Do one candidate at a time and check the attachment name against the recipient before sending.
+
+> [!danger] **Lesson learned (May 2026)**
+> One candidate received another candidate's letter and replied to the Jobs/HR address with the other candidate copied. A mismatched attachment exposes another candidate's name, address, and pay. Matching file to recipient is the most important check in this step. Also remind candidates to reply to the CRR Officer directly, not to the Jobs address.
+
+The template body opens with the Conditional Letter of Employment heading, asks the candidate to read the attached letter, and has them confirm acceptance by replying. It is signed by the CRR Officer.
+
+**Step 3: Notify Concentra and Pepper (same day)**
+
+One Outlook email to both vendors, with all candidates copied so each vendor can reach them directly. Vendor contacts are in Appendix G.4 and G.5.
+
+- **Subject used:** Exam Scheduling Assistance
+- **Body:** Ask both vendors to help the listed recruits schedule a new-hire appointment, give a target completion date, and list each candidate's name and email.
+
+May 2026 timing: the email went out May 1 with a May 20 target. Concentra could not fit a late addition until the 20th; Pepper could do same-day. Send early and allow at least 2 to 3 weeks.
+
+Billing: both are charged to 320100.7726 (Physicals/Psych). Concentra invoices go to Accounts Payable/Purchasing, not to the CRR Officer.
+
+**Step 4: Track to clearance**
+
+- Log each candidate's acceptance reply.
+- Track medical and psych completion and clearance reports.
+- When everyone is cleared, move to Preboarding and then Appointment Letter (Section 9.8).
+
 ## 9.8 Step 7: Appointment Letter
 
 Upon successful completion of all conditional requirements, the candidate receives a formal Appointment Letter with their start date and onboarding instructions. The CRR Officer generates the appointment letter and coordinates the start date, typically targeting a specific pay period.
@@ -1409,6 +1520,12 @@ NEOGOV is the primary applicant tracking system used for the DFD hiring workflow
 
 [ACTION REQUIRED] New CRR Officer must obtain NEOGOV administrator access credentials.
 
+### Recruiting and Community Answers Site and Auto-Reply
+
+The public answers site, dentonfire.github.io/Answers/ (repository DentonFire/Answers), answers the questions the recruiting and CRR inbox gets most: hiring, certifications, the exam, hiring steps, ride-alongs, Explorers, and event requests. It carries the registration, Extra Points, and recruit list links as buttons at the top. Link it in the out-of-office auto-reply so people can find answers on their own.
+
+[UPDATE ANNUALLY] Update the key facts (exam date, registration deadline, salary) and the registration link when registration opens and again when it closes (see 9.1.1). Add a question whenever the same question reaches the inbox more than once.
+
 ### Handshake (UNT)
 
 The CRR Officer maintains a Handshake account through the University of North Texas for posting positions and events to UNT students and alumni. Handshake was finalized in Q1 FY 25-26.
@@ -1458,10 +1575,20 @@ The demographics report is presented to the Civil Service Commission after each 
 
 ## 10.5 Ride-Along Program
 
-The DFD Ride-Along Program provides prospective candidates with firsthand experience of fire department operations. The CRR Officer created a new Ride-Along policy in Q1 FY 25-26 requiring HIPAA training completion prior to participation.
+The DFD Ride-Along Program (Policy 331) gives eligible participants firsthand experience of fire department operations. Requests are reviewed and scheduled by the Emergency Services/Operations Assistant Chief or designee, generally at least one week after the application.
 
-- HIPAA training required before ride-along participation
-- Candidates complete an application and waiver
+**Eligibility (331.3.2):**
+
+- Students currently enrolled in a participating Fire/EMS program, or another DFD partner agency
+- City of Denton employees and their family members, 16 and older
+- Participating members of the department-sponsored Fire Explorer program
+- Participating members of the Citizens Fire Academy
+- Active DFD applicants who have submitted a Personal History Statement and passed background
+
+**Requirements:** 18 or older unless the Fire Chief authorizes (16 and 17 need a guardian-signed minor release; no one under 16); HIPAA training and the HIPAA Observer Agreement; the adult or minor liability release; good health on the day; no weapons. Dress: collared shirt, slacks, and shoes; no shorts, t-shirts, tank tops, sandals, or torn jeans; no hats in the apparatus. Civilian riders may ride no more than once every six months; students, Explorers, chaplains, reserves, and applicants are exempt. Riders observe only and do not handle equipment or join patient care.
+
+**Replying to requests:** When someone does not qualify (a nursing student, a counselor completing training hours, a scholarship applicant), politely list the approved avenues above instead of only declining. Ride-alongs cannot satisfy clinical hours; refer students to their school's clinical coordinator. Affiliations are set up between DFD and a school's program, not for one student. Route schools that want to become participating programs to the CRR Officer.
+
 - Coordinate ride-along scheduling with station crews
 - Track participation and candidate feedback
 
@@ -1477,7 +1604,9 @@ Fire Explorer Post 1291 serves youth ages 14 to 20 through Scouting America (for
 
 - Renewal requires at least five registered Explorers.
 - Every adult instructor needs current registration and safety training.
-- Route interested youth to joinexploring.org, then select Post 1291.
+- Route interested youth to joinexploring.org, then select Post 1291. In replies, give the link and ask whether they have filled out the application yet; copy Captain Tye when a family needs the next meeting date.
+- Homeschool students apply the same way as everyone else.
+- [ACTION REQUIRED] The City Programs Offered page says ages 14 to 19 and Denton County residents; this manual says 14 to 20. Confirm age and residency with Captain Tye before promising out-of-county families a spot.
 
 ## 11.3 Clown Program
 
@@ -2049,7 +2178,7 @@ The following table provides a complete inventory of all digital platforms manag
 
 ## 16.2 GitHub Pages: CRR Web Tools
 
-All four CRR operational web tools are hosted on GitHub Pages, a free static hosting service integrated with the department’s GitHub organization account. This architecture was chosen for zero ongoing cost, high reliability, and simplicity of maintenance.
+The CRR operational and recruiting web tools are hosted on GitHub Pages, a free static hosting service integrated with the department’s GitHub organization account. This architecture was chosen for zero ongoing cost, high reliability, and simplicity of maintenance.
 
 ### Repository Structure
 
@@ -2061,6 +2190,8 @@ Organization: github.com/dentonfire
 | Fire-Watch | dentonfire.github.io/Fire-Watch/ | index.html, PDF forms |
 | Knox-Box | dentonfire.github.io/Knox-Box/ | index.html |
 | After-the-Fire | dentonfire.github.io/After-the-Fire/ | index.html |
+| Extra-Points | dentonfire.github.io/Extra-Points/ | index.html |
+| Answers | dentonfire.github.io/Answers/ | index.html |
 
 ### Deployment Process
 
@@ -2134,6 +2265,8 @@ Key NEOGOV functions managed by CRR Officer:
 - Candidate communication and status updates
 - Disqualification processing and letter generation
 - Conditional and appointment letter generation
+
+Exam registration is not in NEOGOV. Candidates register on the yearly Smartsheet form (see 9.1.1); NEOGOV picks up the candidates who advance.
 
 Coordinate with HR for system access, job posting visibility, and any cross-departmental requirements.
 
@@ -2376,6 +2509,8 @@ Seven-step firefighter hiring process under TX Local Government Code Chapter 143
 | Fire Watch Guidelines | dentonfire.github.io/Fire-Watch/ | Fire protection impairment guide |
 | Knox Box Guide | dentonfire.github.io/Knox-Box/ | Property access procedures |
 | After the Fire | dentonfire.github.io/After-the-Fire/ | Fire victim recovery resources |
+| Extra Points | dentonfire.github.io/Extra-Points/ | Civil Service preference point submission |
+| Recruiting and Community Answers | dentonfire.github.io/Answers/ | Public FAQ; out-of-office auto-reply link |
 
 ## B.2 Water Shutoff System Architecture
 
@@ -2452,6 +2587,7 @@ This directory includes key internal and external contacts for CRR and Recruitme
 | Capt. Jeb Miller | Background investigator; PHS verification | Outlook / in-person |
 | Capt. Ward Morton | Background investigator; PHS verification | Outlook / in-person |
 | Stacy Fruge | Laserfiche file organization for candidate records | Outlook / in-person |
+| Colton Smith (Business Information Analyst) | Builds the yearly exam registration form and sheet in Smartsheet | Outlook / in-person |
 
 ## D.2 External Partners
 
@@ -2478,6 +2614,7 @@ This manual is a living document that should be updated as programs evolve, syst
 | 0.1 | Feb 2026 | Hunter Lott | Initial draft: comprehensive documentation of all CRR, Recruiting, and Administrative operations |
 | 0.2 | Mar 2026 | Hunter Lott | Ch 9.5 PAT expanded (FY 25-26 results, events, staffing, admin checklist). App G restructured as Vendor Reference Guide. New App H (CRR Annual Calendar) and App I (Recruiting Annual Calendar) added. Migrated from .docx to GitHub Pages static site. |
 | 0.3 | Oct 2026 | Hunter Lott | manual.md committed as the single source and build_site.py rewritten to read it. Added 6.4 Ready to Serve content calendar, 12.5 Checkbook Maintenance, 12.2 FY 25-26 year-end status, 13.5 CRR Dashboard Slides, 9.8.1 Onboarding, 8.2 Standing Answers, and a rewritten 11.7 DFR/UAS. Frontline Report calendar replaces the three older calendars. Corrected certification, age, cost, and subscriber figures. PAT candidate names and the purge password removed from the public pages. Dash and formatting cleanup. Added full-text site search (header search box, Search page, in-page match highlighting). |
+| 0.4 | Nov 2026 | Hunter Lott | Added 9.1.1 Exam Registration Form and Public Page Updates (registration moved from NEOGOV to a yearly Smartsheet form; Careers page and FAQ updated twice a year) and 9.7.1 Conditional Offer Procedure. Rewrote 10.5 Ride-Along Program from Policy 331. Expanded 8.2 Standing Answers (no-cert path, lateral entry, volunteers, patches, event form, job posting) and corrected salary. Extra points now submitted through the Extra Points page. Added the public Answers site (10.2, 7.1, 16.2, B.1) and the Public Event Request Form rule (5.2). Explorer reply and age/residency note (11.2). |
 
 ## Review Schedule
 
@@ -2694,6 +2831,8 @@ Concentra provides occupational health services for conditional hires:
 
 **Scheduling:** CRR Officer schedules appointments after conditional letter of employment
 
+**Contact:** Brooke Fowler, Associate Director of Operations, brofowler@concentra.com, 817-882-8700. Invoices go to Accounts Payable/Purchasing.
+
 ## G.5 Pepper & Associates: Psychological Evaluation
 
 Pepper & Associates provides pre-employment psychological evaluations:
@@ -2704,6 +2843,8 @@ Pepper & Associates provides pre-employment psychological evaluations:
 **Cost:** ~$230 per candidate in FY 25-26 (charged to 320100.7726)
 
 **Scheduling:** CRR Officer schedules after conditional letter of employment, typically same week as medical
+
+**Contact:** Misti Cowley, Pepper Psychological Services, misti@pepperpsychservices.com. Same-day scheduling has been possible.
 
 ## G.6 Constant Contact: Newsletter Platform
 
@@ -2873,7 +3014,9 @@ These activities happen continuously regardless of whether a hiring cycle is act
 | Diversity outreach | Ongoing | Targeted events, partnerships, community engagement |
 | School/youth outreach | As scheduled | Middle school and high school career days: long-term pipeline |
 | Budget tracking | Monthly | Monitor 320100.7826 (Diversity) and 320100.7726 (Physicals/Psych) |
-| Ride-Along Program | Ongoing | HIPAA training required. Candidates experience shift operations firsthand. |
+| Ride-Along Program | Ongoing | Policy 331. Eligible groups only (see 10.5); HIPAA training and waivers required. |
+| Careers page and FAQ | Twice a year (registration opens, registration closes) | Send opening and closing wording to the City web team (see 9.1.1) |
+| Answers site | Twice a year, plus as new questions appear | Update key facts and links at registration open and close (see 10.2) |
 | Explorer/Scout Program | Ongoing | Scouting America partnership, youth development, future pipeline |
 
 ## I.2 Hiring Cycle Timeline
@@ -2886,15 +3029,17 @@ The following timeline describes the typical sequence of a firefighter hiring cy
 |---|---|---|---|
 | -12 to -10 | Confirm hiring need | Chief Hedges | Number of positions, target academy date |
 | -10 to -8 | NEOGOV job posting | CRR Officer + HR | Draft posting, set application window, confirm requirements |
+| -10 | Registration form and web pages | CRR Officer + DFD data analyst | New Smartsheet form and sheet for the exam year; deadline matches the POA; send opening wording to web team (9.1.1) |
 | -8 | FPSI exam coordination | CRR Officer | Order exam materials, confirm exam date with FPSI and Civil Service Commission |
 | -8 to -4 | Recruiting push | CRR Officer | Newsletter blasts, social media, career fairs, academy visits, Handshake |
-| -4 to -2 | Registration monitoring | CRR Officer | Track applicant count via NEOGOV, push additional outreach if numbers are low |
+| -4 to -2 | Registration monitoring | CRR Officer | Track registrations in the Smartsheet registration sheet, push additional outreach if numbers are low |
 | -1 | Exam logistics | CRR Officer | Reserve venue, confirm proctors, prepare materials, candidate communication |
 
 ### Phase 2: Civil Service Exam
 
 | Activity | Owner | Key Details |
 |---|---|---|
+| Registration closes | CRR Officer | Send closing wording to web team, remove form link, export the registration sheet (9.1.1) |
 | Exam day | CRR Officer + proctors | Administer written exam per Civil Service rules. Check IDs, collect extra point documentation. |
 | Score processing | FPSI → CRR Officer | FPSI scores exams and returns results. CRR Officer applies preference points. |
 | Eligibility list | CRR Officer | Generate ranked list, apply tie-breaking criteria, distribute to Chief and Civil Service Commission. |
