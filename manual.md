@@ -876,7 +876,7 @@ These are the answers of record for the recruiting inbox and every published pie
 7. **No lateral transfers, no volunteers, no internships, no patches.** Say so plainly, then give the next step: the entrance exam, Explorer Post 1291, or the Citizens Fire Academy.
 8. **No separate job posting.** Exam registration is the application. Out-of-cycle inquiries go to the recruit list, https://www.readytoserve.io/denton-fire.
 9. **Event and visit requests** always get the Public Event Request Form link (see 5.2).
-10. **Paramedic school after hire.** Whether the department pays for or assists with paramedic school is not confirmed in this manual. Do not promise it until confirmed.
+10. **Paramedic school after hire.** Candidates hired as a firefighter and EMT are also sent to paramedic school by the department (confirmed by Captain Lott, November 2026). Mention it when someone asks about paramedic training or says they do not hold a paramedic certification.
 
 The full set of standing answers, routing, and current-cycle links is kept in the Recruiting Inbox Reply Rules (DFD Operations Hub project) and published for the public at dentonfire.github.io/Answers/.
 
