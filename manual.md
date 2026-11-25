@@ -112,7 +112,7 @@ The current fiscal year is FY 26-27 (October 2026 through September 2027). All b
 
 ### Shift Structure
 
-DFD Operations personnel work a 24-on/48-off shift rotation. The CRR Officer position is a day-shift administrative assignment operating on a "Flex On/Flex Off" schedule, which provides scheduling flexibility to accommodate evening and weekend recruiting events, community outreach activities, and other duties that fall outside standard business hours. This flexibility is essential given that many recruiting events, career fairs, and community events occur on evenings and weekends.
+DFD Operations personnel work a 48-on/96-off shift rotation (A, B, and C shifts). The CRR Officer position is a day-shift administrative assignment operating on a "Flex On/Flex Off" schedule, which provides scheduling flexibility to accommodate evening and weekend recruiting events, community outreach activities, and other duties that fall outside standard business hours. This flexibility is essential given that many recruiting events, career fairs, and community events occur on evenings and weekends.
 
 ### Reporting Chain
 
@@ -237,7 +237,7 @@ The CRR Officer provides deliverables to the Civil Service Commission including 
 
 ### MarComm (Marketing & Communications)
 
-DFD MarComm supports CRR and Recruiting through collaborative content creation (Veterans Day campaigns, video script development), social media coordination, and brand consistency. The CRR Officer coordinates with MarComm for major campaigns and media inquiry responses.
+DFD MarComm supports CRR and Recruiting through collaborative content creation (Veterans Day campaigns, video script development), social media coordination, and brand consistency. The CRR Officer coordinates with MarComm for major campaigns and media inquiry responses. Every formal press release goes out through MarComm, never separately from DFD. See Section 11.9 for PIO support.
 
 ## 3.2 External Partners
 
@@ -511,7 +511,7 @@ Each month's newsletter is supported by four weekly social media posts across Fa
 | March | Getting Certified | TCFP Firefighter and EMT certification paths, area academies, timing before the April conditional offer |
 | April | EMT School | EMS certification, curriculum, why it matters |
 | May | Paramedic School | Advanced EMS path, clinicals, career advancement |
-| June | A Day in the Life | 24-hour shift, station culture, call types, crew dynamics |
+| June | A Day in the Life | 48-hour shift, station culture, call types, crew dynamics |
 | July | Surviving Your Rookie Year | Probation tips, earning trust, mentorship, learning |
 | August | Flex Month | Diversity, veterans, second careers, or other topics as needed |
 | September | Exercise and Diet | Physical prep, nutrition, training plans, mental readiness |
@@ -598,7 +598,7 @@ The following tables provide ready-to-use social media posts for each week of ea
 
 | Week | Facebook | LinkedIn | X |
 |---|---|---|---|
-| 1 | What does a 24-hour shift at a fire station look like? Morning truck checks. Training. Lunch. Calls. Dinner (if you're lucky). More calls. Sleep (sometimes). And you do it with a crew that becomes family. | A 24-hour shift at Denton Fire: apparatus checks, training, emergency responses, station duties, meals, and rest when time allows. It's structured but unpredictable. That's the nature of the work. | 24 hours on shift: truck checks, training, calls, meals, maybe sleep. Every day is different. Every day matters. |
+| 1 | What does a 48-hour shift at a fire station look like? Morning truck checks. Training. Lunch. Calls. Dinner (if you're lucky). More calls. Sleep (sometimes). And you do it with a crew that becomes family. | A 48-hour shift at Denton Fire: apparatus checks, training, emergency responses, station duties, meals, and rest when time allows. It's structured but unpredictable. That's the nature of the work. | 48 hours on shift: truck checks, training, calls, meals, maybe sleep. Every day is different. Every day matters. |
 | 2 | Station life isn't what you see on TV. Yes, there are emergencies. But there's also training, equipment maintenance, public education events, and a whole lot of teamwork. It's a real job, not a show. | Fire station reality: less Hollywood drama, more consistent preparation. Training, maintenance, community engagement, and emergency response. The work between calls is what makes us ready. | Station life isn't TV drama. It's training, maintenance, prep, and teamwork. The work between calls makes us ready. |
 | 3 | The calls vary. Structure fires. Car crashes. Medical emergencies. Public assists. Hazmat incidents. You train for all of it, and you never know what's next. That's what keeps this job challenging. | Denton firefighters respond to a wide range of emergencies: fires, EMS, motor vehicle accidents, hazmat, technical rescue. Versatility is essential. So is continuous training. | Fires. Wrecks. Medical calls. Hazmat. Technical rescue. You train for all of it. You respond to whatever comes. |
 | 4 | The best part of this job? The people you work with. Your crew becomes your second family. You eat together, train together, respond together, and have each other's backs no matter what. | Fire service culture is built on trust and teamwork. Your crew becomes your second family. That bond is forged through shared challenges and mutual accountability. | The best part of the job? The crew. You train together, respond together, and have each other's backs. Always. |
@@ -872,7 +872,7 @@ These are the answers of record for the recruiting inbox and every published pie
 3. **Dual-role only.** Every sworn position is firefighter first, EMT-Basic at minimum. Paramedics earn certification pay.
 4. **The paramedic exception.** A fully certified paramedic who is hired has fire academy paid for by the department.
 5. **Ride-alongs are observation only.** They do not satisfy EMT or paramedic clinical hours; refer students to their school's clinical coordinator. When someone does not qualify, list the approved avenues from Policy 331 (see 10.5) instead of only declining.
-6. **No certifications yet.** A registered candidate without certifications can take the exam and go through every step, including the PAT, background, and interviews. They cannot receive a conditional offer until eligible for hire. The list lasts a year, and some years DFD hires in the spring and again in the fall, so candidates can finish certifications while on the list. Refer them to the Training Division; candidates have finished fire and EMT in under three months.
+6. **No certifications yet.** A registered candidate without certifications can take the exam and go through every step, including the PAT, background, and interviews. They cannot receive a conditional offer until eligible for hire. The list lasts a year, and some years DFD hires in the spring and again in the fall, so candidates can finish certifications while on the list. Candidates have finished fire and EMT in under three months. One option we can share is the online Firefighter Academy and EMT School at Training Division (https://trainingdivision.com/). It is an outside provider, not a DFD division, and it is not an endorsement by Denton Fire; present it as education and an option only.
 7. **No lateral transfers, no volunteers, no internships, no patches.** Say so plainly, then give the next step: the entrance exam, Explorer Post 1291, or the Citizens Fire Academy.
 8. **No separate job posting.** Exam registration is the application. Out-of-cycle inquiries go to the recruit list, https://www.readytoserve.io/denton-fire.
 9. **Event and visit requests** always get the Public Event Request Form link (see 5.2).
@@ -1641,6 +1641,62 @@ The CRR Officer also supports pilot training coordination and Part 107 tracking,
 ## 11.8 Succession Planning Needs
 
 Several programs require succession planning beyond the CRR Officer position. These are documented in Chapter 17 (System Administration & Succession Planning).
+
+## 11.9 Public Information Officer (PIO) Support
+
+The CRR Officer supports the department's Public Information Officer role and may cover it. This section records the expectations captured in the PIO Role Expectations Worksheet (November 2026) so anyone filling the role works from the same understanding. "On-call PIO" means whoever is filling the role at the time. The governing policies are SOP 320 (News Media and Public Relations) and SOP 712 (Use of Social Media). When this section and an SOP disagree, the SOP controls.
+
+### 11.9.1 Media requests
+
+Most media inquiries arrive at the shared Denton Fire inbox or the PIO phone, usually because a social media post made them want more detail. Respond within the hour when possible. During a major incident, monitor radio, call notes, email, and social media continuously.
+
+| Common question | Approved response |
+|---|---|
+| How many injuries, displaced, or fatalities on a structure fire? | Confirm any fatality count with the Fire Marshal's office first. Never give a cause; say the Fire Marshal's office is on scene and investigating. Injuries, treated, transported, and displaced counts may be given ("Red Cross will be assisting 10 persons displaced"). |
+| How long will the highway be shut down? | Defer to the PD PIO. |
+| How many injured or killed in a vehicle crash? | Confirm any fatality count with PD first. Patients transported and their general condition may be given ("three patients transported to local hospitals, two critical and one serious, and a fourth by air ambulance"). Never name the receiving hospitals. |
+
+**Can be shared:** total patients, their conditions, transports, and that the cause is under investigation. **Never shared:** names, ages, sex, or any HIPAA-protected detail, and a specific cause unless the Fire Marshal's office has released it. Fire causes are always "under investigation." Fatalities may belong to PD or the Fire Marshal depending on the situation; DFD never releases names, and may say the Medical Examiner will make a positive identification and next of kin will be notified.
+
+**Do not answer, defer instead:** DISD, TWU, and UNT matters go to those entities' own PIOs. Courtesy: give those PIOs a heads up on serious calls on their campuses, structure fires, and hazmat incidents. Further questions on fire cause go to the Fire Marshal.
+
+**Approval:** text the Senior Chiefs a situation report first, then the MarComm and PD PIO group, before any major update. A formal press release takes hours to clear Senior Chiefs, the Fire Marshal, PD PIOs, and the MarComm Director, and it is always issued by MarComm. The PIO does not send a separate press release.
+
+Building a working relationship with individual reporters helps the department. Keep the working media contact list in the PIO's phone and in the project files, not in this manual.
+
+### 11.9.2 Scene and event response
+
+Expect an on-scene PIO response for any second-alarm assignment or greater, a multiple-fatality incident, a fire fatality, or any high-profile incident that could make state or national news. Nobody will request the PIO to a scene; the PIO makes that call. Keep BC notifications turned on in G2 so you know when Battalion Chiefs are toned out, watch call notes, and listen to radio traffic when needed. For anything significant, notify the Senior Chiefs, PD, and MarComm, then post as necessary.
+
+### 11.9.3 Social media
+
+- **Accounts:** Facebook, Instagram, X, and Nextdoor. Admin access is limited; the access list is kept in the project files and in Section 17.1, not here.
+- **Frequency:** two to four posts a week across incident updates, safety messages, recruiting, community events, and recognition. Positive public education events and events with kids and pets work well, but get a parent's permission before posting a child.
+- **Coordination:** coordinate with the PD PIOs first on any call that is or may become a police matter.
+- **Can post:** photos of the fronts of buildings, and counts of injuries, transports, and displaced.
+- **Cannot post:** personal identification or belongings from fires, backyards, or private areas. Black out license plates, trucking DOT numbers, company names and logos, and aircraft N-numbers. Blur faces of involved persons as needed.
+- **Tagging:** City of Denton, Denton Police, Denton ISD, and UNT or TWU where relevant.
+- **Approval:** most posts need none. Traffic and road-closure notices are an example ("I-35W is shut down northbound at 2449 for a multi-vehicle accident. Expect delays for a few hours and seek an alternate route."). Anything investigative, and any fatality update, needs coordination with the Senior Chiefs, PD, and MarComm before it posts.
+- **Comments, messages, and complaints:** the Fire Chief's standing order is to post and not reply. DFD does not respond to comments. MarComm and PD may respond; DFD does not.
+- **When in doubt:** ask the Senior Chiefs.
+
+### 11.9.4 Shared Denton Fire inbox
+
+The shared inbox is monitored continuously during the day, with checks in the evenings and on weekends, and continuously during a major event. Aim to reply to every message within the hour. Routing:
+
+| Message type | Action |
+|---|---|
+| Junk mail | Delete |
+| AED renewals | Forward to the AED program contacts in Operations |
+| Fire alarm system problems and permitting questions | Forward to FirePrevention@cityofdenton.com |
+| Patch or coin requests | Decline: "Unfortunately, we have no budget for this and cannot fulfill this request." |
+| Community event requests | Send the Public Event Request Form link |
+| EMS or fire records requests | Never release a record. Use the standard request reply and point the requester to the City's records request page |
+| Anything involving a fatality | Do not answer without Senior Chief approval |
+
+### 11.9.5 When unsure
+
+Ask the Senior Chiefs first; they have final say. MarComm, the PD PIOs, and the PIO's own backup are available for help. Loop in MarComm on anything that may become public communication, and keep the SOPs above at hand.
 
 # **Chapter 12: Budget and Financial Management**
 
